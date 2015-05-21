@@ -1,0 +1,1175 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		BBF02C4F49954B22A1F9E97C /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6C7F1617D09B40EEA01E8935 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				22213CC0ABCA47AEBED70418 /* CMake Rules */,
+			);
+			dependencies = (
+				AB68327177D54959B8FD881F /* PBXTargetDependency */,
+				2C221C557ABB405AAC41DE04 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		DE7D60C4962C4E1096CCA3DE /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9885C96FA8CE4304B404D2A6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				AE2A1F6BF5C0471EBBD57BCE /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		FC43B6ED39344762A1BC5A10 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F8D41DBAFD44BEBA62E46B5 /* main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AAC369CAF5D41E6956D7C26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BA195DA914D432EB45079F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE7D60C4962C4E1096CCA3DE;
+			remoteInfo = ZERO_CHECK;
+		};
+		8323ECB0A9AF4D9D809AE254 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BA195DA914D432EB45079F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A294E3FB461F4AE6BF810CB0;
+			remoteInfo = iSpeak_module;
+		};
+		DE400B9D1BC848B68CD05EBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BA195DA914D432EB45079F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE7D60C4962C4E1096CCA3DE;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3E98E082A0E846CD8C2B7A34 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5601A266A85C41FF84E6ACD4 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5F8D41DBAFD44BEBA62E46B5 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		95CE3C06C4FF4553A1B1EC41 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A6845B7FF6BA483B9875BE72 /* iSpeak_module */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = iSpeak_module; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		00CDB76A94D64A87ABE7F41D /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				11A679EF728E442BB7C09991 /* CMake Rules */,
+				5601A266A85C41FF84E6ACD4 /* CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		11A679EF728E442BB7C09991 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		31D626AEBF1B4A8BB5833DDD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				775562B3F0524315A5D75381 /* ALL_BUILD */,
+				B283524A1DB5411B904A9A60 /* iSpeak_module */,
+				00CDB76A94D64A87ABE7F41D /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		42C85453CDD84099A10BC0C0 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F8D41DBAFD44BEBA62E46B5 /* main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4D8780ABEBAC4119AEC714CA /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		6399B9A42E9A4346B3323647 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6D98CBAA8DFF4E8794646252 = {
+			isa = PBXGroup;
+			children = (
+				31D626AEBF1B4A8BB5833DDD /* Sources */,
+				6399B9A42E9A4346B3323647 /* Resources */,
+				CCDACEA1F8EF432CA5E6C597 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		775562B3F0524315A5D75381 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				4D8780ABEBAC4119AEC714CA /* CMake Rules */,
+				3E98E082A0E846CD8C2B7A34 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		B283524A1DB5411B904A9A60 /* iSpeak_module */ = {
+			isa = PBXGroup;
+			children = (
+				42C85453CDD84099A10BC0C0 /* Source Files */,
+				95CE3C06C4FF4553A1B1EC41 /* CMakeLists.txt */,
+			);
+			name = iSpeak_module;
+			sourceTree = "<group>";
+		};
+		CCDACEA1F8EF432CA5E6C597 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6845B7FF6BA483B9875BE72 /* iSpeak_module */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A294E3FB461F4AE6BF810CB0 /* iSpeak_module */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9A0ADDD9E6F4EF898BFEB25 /* Build configuration list for PBXNativeTarget "iSpeak_module" */;
+			buildPhases = (
+				D3A83125DC6044E589D5C922 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4371DF37B614049A53065E9 /* PBXTargetDependency */,
+			);
+			name = iSpeak_module;
+			productName = iSpeak_module;
+			productReference = A6845B7FF6BA483B9875BE72 /* iSpeak_module */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BA195DA914D432EB45079F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = 68ECCDBB97404BAC8D3C2092 /* Build configuration list for PBXProject "iSpeak_module" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6D98CBAA8DFF4E8794646252;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBF02C4F49954B22A1F9E97C /* ALL_BUILD */,
+				DE7D60C4962C4E1096CCA3DE /* ZERO_CHECK */,
+				A294E3FB461F4AE6BF810CB0 /* iSpeak_module */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22213CC0ABCA47AEBED70418 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Semih/iCub_Turkish-actionRecognition/iSpeak-Turkish -f /Users/Semih/iCub_Turkish-actionRecognition/iSpeak-Turkish/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		AE2A1F6BF5C0471EBBD57BCE /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Semih/iCub_Turkish-actionRecognition/iSpeak-Turkish -f /Users/Semih/iCub_Turkish-actionRecognition/iSpeak-Turkish/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3A83125DC6044E589D5C922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC43B6ED39344762A1BC5A10 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C221C557ABB405AAC41DE04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A294E3FB461F4AE6BF810CB0 /* iSpeak_module */;
+			targetProxy = 8323ECB0A9AF4D9D809AE254 /* PBXContainerItemProxy */;
+		};
+		AB68327177D54959B8FD881F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE7D60C4962C4E1096CCA3DE /* ZERO_CHECK */;
+			targetProxy = 5AAC369CAF5D41E6956D7C26 /* PBXContainerItemProxy */;
+		};
+		E4371DF37B614049A53065E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE7D60C4962C4E1096CCA3DE /* ZERO_CHECK */;
+			targetProxy = DE400B9D1BC848B68CD05EBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B866899632C4B3BB2F2A564 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libiCubIDLClients.a,
+					/usr/local/lib/libiCubDev.a,
+					/usr/local/lib/libiCubVis.a,
+					/usr/local/lib/liblogpolar.a,
+					/usr/local/lib/libboostMIL.a,
+					/usr/local/lib/libctrlLib.a,
+					/usr/local/lib/libskinDynLib.a,
+					/usr/local/lib/libiKin.a,
+					/usr/local/lib/libiDyn.a,
+					/usr/local/lib/liblearningMachine.a,
+					/usr/local/lib/libperceptiveModels.a,
+					/usr/local/lib/libactionPrimitives.a,
+					/usr/local/lib/libarmcalibrator.a,
+					/usr/local/lib/libarmcalibratorj8.a,
+					/usr/local/lib/libcartesiancontrollerserver.a,
+					/usr/local/lib/libcartesiancontrollerclient.a,
+					/usr/local/lib/libgazecontrollerclient.a,
+					/usr/local/lib/libhandcalibrator.a,
+					/usr/local/lib/liblegscalibrator.a,
+					/usr/local/lib/liblogpolarclient.a,
+					/usr/local/lib/liblogpolargrabber.a,
+					/usr/local/lib/libdebugInterfaceClient.a,
+					/usr/local/lib/libdebugInterfaceWrapper.a,
+					/usr/local/lib/libembObjMotionControl.a,
+					/usr/local/lib/libethResources.a,
+					/usr/local/lib/libicubmod.a,
+					/usr/local/lib/libd4c.a,
+					/usr/local/lib/liboptimization.a,
+					/usr/local/lib/liblib0.a,
+					/usr/local/lib/liblib1.a,
+					/usr/local/lib/libsharksWithLasers.a,
+					/usr/local/lib/libcanLoaderLib.a,
+					"-lopencv_videostab",
+					"-lopencv_video",
+					"-lopencv_ts",
+					"-lopencv_superres",
+					"-lopencv_stitching",
+					"-lopencv_photo",
+					"-lopencv_ocl",
+					"-lopencv_objdetect",
+					"-lopencv_nonfree",
+					"-lopencv_ml",
+					"-lopencv_legacy",
+					"-lopencv_imgproc",
+					"-lopencv_highgui",
+					"-lopencv_gpu",
+					"-lopencv_flann",
+					"-lopencv_features2d",
+					"-lopencv_core",
+					"-lopencv_contrib",
+					"-lopencv_calib3d",
+					/usr/local/lib/libskinDynLib.a,
+					/usr/local/lib/libperceptiveModels.a,
+					/usr/local/lib/liblearningMachine.a,
+					/usr/local/lib/libicubmod.a,
+					/usr/local/lib/libarmcalibrator.a,
+					/usr/local/lib/libarmcalibratorj8.a,
+					/usr/local/lib/libcartesiancontrollerserver.a,
+					/usr/local/lib/libcartesiancontrollerclient.a,
+					/usr/local/lib/libiKin.a,
+					/usr/local/lib/libgazecontrollerclient.a,
+					/usr/local/lib/libhandcalibrator.a,
+					/usr/local/lib/liblegscalibrator.a,
+					/usr/local/lib/liblogpolarclient.a,
+					/usr/local/lib/liblogpolargrabber.a,
+					/usr/local/lib/liblogpolar.a,
+					/usr/local/lib/libdebugInterfaceClient.a,
+					/usr/local/lib/libdebugInterfaceWrapper.a,
+					/usr/local/lib/libembObjMotionControl.a,
+					/usr/local/lib/libiCubDev.a,
+					/usr/local/lib/libethResources.a,
+					/usr/local/lib/libctrlLib.a,
+					/usr/local/lib/libgsl.dylib,
+					/usr/local/lib/libgslcblas.dylib,
+					/usr/local/lib/libipopt.dylib,
+					/usr/lib/liblapack.dylib,
+					/usr/lib/libblas.dylib,
+					/usr/lib/libm.dylib,
+					/usr/lib/libdl.dylib,
+					/usr/local/lib/libcoinmumps.dylib,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib,
+					"-framework",
+					System,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib,
+					/usr/lib/libblas.dylib,
+					/usr/lib/libm.dylib,
+					/usr/lib/libdl.dylib,
+					/usr/local/lib/libcoinmumps.dylib,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib,
+					"-framework",
+					System,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib,
+					/usr/local/lib/libcoinmetis.dylib,
+					/usr/local/lib/liblib0.a,
+					/usr/local/lib/libYARP_math.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_dev.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_sig.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_name.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_init.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_OS.2.3.63.6.dylib,
+					/usr/local/lib/libACE.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = iSpeak_module;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/iSpeak-Turkish";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		1FEAB2512A3F4E94BCE24E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    ";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libiCubIDLClients.a,
+					/usr/local/lib/libiCubDev.a,
+					/usr/local/lib/libiCubVis.a,
+					/usr/local/lib/liblogpolar.a,
+					/usr/local/lib/libboostMIL.a,
+					/usr/local/lib/libctrlLib.a,
+					/usr/local/lib/libskinDynLib.a,
+					/usr/local/lib/libiKin.a,
+					/usr/local/lib/libiDyn.a,
+					/usr/local/lib/liblearningMachine.a,
+					/usr/local/lib/libperceptiveModels.a,
+					/usr/local/lib/libactionPrimitives.a,
+					/usr/local/lib/libarmcalibrator.a,
+					/usr/local/lib/libarmcalibratorj8.a,
+					/usr/local/lib/libcartesiancontrollerserver.a,
+					/usr/local/lib/libcartesiancontrollerclient.a,
+					/usr/local/lib/libgazecontrollerclient.a,
+					/usr/local/lib/libhandcalibrator.a,
+					/usr/local/lib/liblegscalibrator.a,
+					/usr/local/lib/liblogpolarclient.a,
+					/usr/local/lib/liblogpolargrabber.a,
+					/usr/local/lib/libdebugInterfaceClient.a,
+					/usr/local/lib/libdebugInterfaceWrapper.a,
+					/usr/local/lib/libembObjMotionControl.a,
+					/usr/local/lib/libethResources.a,
+					/usr/local/lib/libicubmod.a,
+					/usr/local/lib/libd4c.a,
+					/usr/local/lib/liboptimization.a,
+					/usr/local/lib/liblib0.a,
+					/usr/local/lib/liblib1.a,
+					/usr/local/lib/libsharksWithLasers.a,
+					/usr/local/lib/libcanLoaderLib.a,
+					"-lopencv_videostab",
+					"-lopencv_video",
+					"-lopencv_ts",
+					"-lopencv_superres",
+					"-lopencv_stitching",
+					"-lopencv_photo",
+					"-lopencv_ocl",
+					"-lopencv_objdetect",
+					"-lopencv_nonfree",
+					"-lopencv_ml",
+					"-lopencv_legacy",
+					"-lopencv_imgproc",
+					"-lopencv_highgui",
+					"-lopencv_gpu",
+					"-lopencv_flann",
+					"-lopencv_features2d",
+					"-lopencv_core",
+					"-lopencv_contrib",
+					"-lopencv_calib3d",
+					/usr/local/lib/libskinDynLib.a,
+					/usr/local/lib/libperceptiveModels.a,
+					/usr/local/lib/liblearningMachine.a,
+					/usr/local/lib/libicubmod.a,
+					/usr/local/lib/libarmcalibrator.a,
+					/usr/local/lib/libarmcalibratorj8.a,
+					/usr/local/lib/libcartesiancontrollerserver.a,
+					/usr/local/lib/libcartesiancontrollerclient.a,
+					/usr/local/lib/libiKin.a,
+					/usr/local/lib/libgazecontrollerclient.a,
+					/usr/local/lib/libhandcalibrator.a,
+					/usr/local/lib/liblegscalibrator.a,
+					/usr/local/lib/liblogpolarclient.a,
+					/usr/local/lib/liblogpolargrabber.a,
+					/usr/local/lib/liblogpolar.a,
+					/usr/local/lib/libdebugInterfaceClient.a,
+					/usr/local/lib/libdebugInterfaceWrapper.a,
+					/usr/local/lib/libembObjMotionControl.a,
+					/usr/local/lib/libiCubDev.a,
+					/usr/local/lib/libethResources.a,
+					/usr/local/lib/libctrlLib.a,
+					/usr/local/lib/libgsl.dylib,
+					/usr/local/lib/libgslcblas.dylib,
+					/usr/local/lib/libipopt.dylib,
+					/usr/lib/liblapack.dylib,
+					/usr/lib/libblas.dylib,
+					/usr/lib/libm.dylib,
+					/usr/lib/libdl.dylib,
+					/usr/local/lib/libcoinmumps.dylib,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib,
+					"-framework",
+					System,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib,
+					/usr/lib/libblas.dylib,
+					/usr/lib/libm.dylib,
+					/usr/lib/libdl.dylib,
+					/usr/local/lib/libcoinmumps.dylib,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib,
+					"-framework",
+					System,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib,
+					/usr/local/lib/libcoinmetis.dylib,
+					/usr/local/lib/liblib0.a,
+					/usr/local/lib/libYARP_math.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_dev.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_sig.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_name.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_init.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_OS.2.3.63.6.dylib,
+					/usr/local/lib/libACE.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = iSpeak_module;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/iSpeak-Turkish";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		2998424C78234159BACB66C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/iSpeak-Turkish/build";
+			};
+			name = Debug;
+		};
+		2FFFDD1D59B64A87B90830B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/iSpeak-Turkish";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		548795DCEAE34C889D393F05 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libiCubIDLClients.a,
+					/usr/local/lib/libiCubDev.a,
+					/usr/local/lib/libiCubVis.a,
+					/usr/local/lib/liblogpolar.a,
+					/usr/local/lib/libboostMIL.a,
+					/usr/local/lib/libctrlLib.a,
+					/usr/local/lib/libskinDynLib.a,
+					/usr/local/lib/libiKin.a,
+					/usr/local/lib/libiDyn.a,
+					/usr/local/lib/liblearningMachine.a,
+					/usr/local/lib/libperceptiveModels.a,
+					/usr/local/lib/libactionPrimitives.a,
+					/usr/local/lib/libarmcalibrator.a,
+					/usr/local/lib/libarmcalibratorj8.a,
+					/usr/local/lib/libcartesiancontrollerserver.a,
+					/usr/local/lib/libcartesiancontrollerclient.a,
+					/usr/local/lib/libgazecontrollerclient.a,
+					/usr/local/lib/libhandcalibrator.a,
+					/usr/local/lib/liblegscalibrator.a,
+					/usr/local/lib/liblogpolarclient.a,
+					/usr/local/lib/liblogpolargrabber.a,
+					/usr/local/lib/libdebugInterfaceClient.a,
+					/usr/local/lib/libdebugInterfaceWrapper.a,
+					/usr/local/lib/libembObjMotionControl.a,
+					/usr/local/lib/libethResources.a,
+					/usr/local/lib/libicubmod.a,
+					/usr/local/lib/libd4c.a,
+					/usr/local/lib/liboptimization.a,
+					/usr/local/lib/liblib0.a,
+					/usr/local/lib/liblib1.a,
+					/usr/local/lib/libsharksWithLasers.a,
+					/usr/local/lib/libcanLoaderLib.a,
+					"-lopencv_videostab",
+					"-lopencv_video",
+					"-lopencv_ts",
+					"-lopencv_superres",
+					"-lopencv_stitching",
+					"-lopencv_photo",
+					"-lopencv_ocl",
+					"-lopencv_objdetect",
+					"-lopencv_nonfree",
+					"-lopencv_ml",
+					"-lopencv_legacy",
+					"-lopencv_imgproc",
+					"-lopencv_highgui",
+					"-lopencv_gpu",
+					"-lopencv_flann",
+					"-lopencv_features2d",
+					"-lopencv_core",
+					"-lopencv_contrib",
+					"-lopencv_calib3d",
+					/usr/local/lib/libskinDynLib.a,
+					/usr/local/lib/libperceptiveModels.a,
+					/usr/local/lib/liblearningMachine.a,
+					/usr/local/lib/libicubmod.a,
+					/usr/local/lib/libarmcalibrator.a,
+					/usr/local/lib/libarmcalibratorj8.a,
+					/usr/local/lib/libcartesiancontrollerserver.a,
+					/usr/local/lib/libcartesiancontrollerclient.a,
+					/usr/local/lib/libiKin.a,
+					/usr/local/lib/libgazecontrollerclient.a,
+					/usr/local/lib/libhandcalibrator.a,
+					/usr/local/lib/liblegscalibrator.a,
+					/usr/local/lib/liblogpolarclient.a,
+					/usr/local/lib/liblogpolargrabber.a,
+					/usr/local/lib/liblogpolar.a,
+					/usr/local/lib/libdebugInterfaceClient.a,
+					/usr/local/lib/libdebugInterfaceWrapper.a,
+					/usr/local/lib/libembObjMotionControl.a,
+					/usr/local/lib/libiCubDev.a,
+					/usr/local/lib/libethResources.a,
+					/usr/local/lib/libctrlLib.a,
+					/usr/local/lib/libgsl.dylib,
+					/usr/local/lib/libgslcblas.dylib,
+					/usr/local/lib/libipopt.dylib,
+					/usr/lib/liblapack.dylib,
+					/usr/lib/libblas.dylib,
+					/usr/lib/libm.dylib,
+					/usr/lib/libdl.dylib,
+					/usr/local/lib/libcoinmumps.dylib,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib,
+					"-framework",
+					System,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib,
+					/usr/lib/libblas.dylib,
+					/usr/lib/libm.dylib,
+					/usr/lib/libdl.dylib,
+					/usr/local/lib/libcoinmumps.dylib,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib,
+					"-framework",
+					System,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib,
+					/usr/local/lib/libcoinmetis.dylib,
+					/usr/local/lib/liblib0.a,
+					/usr/local/lib/libYARP_math.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_dev.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_sig.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_name.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_init.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_OS.2.3.63.6.dylib,
+					/usr/local/lib/libACE.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = iSpeak_module;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/iSpeak-Turkish";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		5575D19CDFA94278B83A4E16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libiCubIDLClients.a,
+					/usr/local/lib/libiCubDev.a,
+					/usr/local/lib/libiCubVis.a,
+					/usr/local/lib/liblogpolar.a,
+					/usr/local/lib/libboostMIL.a,
+					/usr/local/lib/libctrlLib.a,
+					/usr/local/lib/libskinDynLib.a,
+					/usr/local/lib/libiKin.a,
+					/usr/local/lib/libiDyn.a,
+					/usr/local/lib/liblearningMachine.a,
+					/usr/local/lib/libperceptiveModels.a,
+					/usr/local/lib/libactionPrimitives.a,
+					/usr/local/lib/libarmcalibrator.a,
+					/usr/local/lib/libarmcalibratorj8.a,
+					/usr/local/lib/libcartesiancontrollerserver.a,
+					/usr/local/lib/libcartesiancontrollerclient.a,
+					/usr/local/lib/libgazecontrollerclient.a,
+					/usr/local/lib/libhandcalibrator.a,
+					/usr/local/lib/liblegscalibrator.a,
+					/usr/local/lib/liblogpolarclient.a,
+					/usr/local/lib/liblogpolargrabber.a,
+					/usr/local/lib/libdebugInterfaceClient.a,
+					/usr/local/lib/libdebugInterfaceWrapper.a,
+					/usr/local/lib/libembObjMotionControl.a,
+					/usr/local/lib/libethResources.a,
+					/usr/local/lib/libicubmod.a,
+					/usr/local/lib/libd4c.a,
+					/usr/local/lib/liboptimization.a,
+					/usr/local/lib/liblib0.a,
+					/usr/local/lib/liblib1.a,
+					/usr/local/lib/libsharksWithLasers.a,
+					/usr/local/lib/libcanLoaderLib.a,
+					"-lopencv_videostab",
+					"-lopencv_video",
+					"-lopencv_ts",
+					"-lopencv_superres",
+					"-lopencv_stitching",
+					"-lopencv_photo",
+					"-lopencv_ocl",
+					"-lopencv_objdetect",
+					"-lopencv_nonfree",
+					"-lopencv_ml",
+					"-lopencv_legacy",
+					"-lopencv_imgproc",
+					"-lopencv_highgui",
+					"-lopencv_gpu",
+					"-lopencv_flann",
+					"-lopencv_features2d",
+					"-lopencv_core",
+					"-lopencv_contrib",
+					"-lopencv_calib3d",
+					/usr/local/lib/libskinDynLib.a,
+					/usr/local/lib/libperceptiveModels.a,
+					/usr/local/lib/liblearningMachine.a,
+					/usr/local/lib/libicubmod.a,
+					/usr/local/lib/libarmcalibrator.a,
+					/usr/local/lib/libarmcalibratorj8.a,
+					/usr/local/lib/libcartesiancontrollerserver.a,
+					/usr/local/lib/libcartesiancontrollerclient.a,
+					/usr/local/lib/libiKin.a,
+					/usr/local/lib/libgazecontrollerclient.a,
+					/usr/local/lib/libhandcalibrator.a,
+					/usr/local/lib/liblegscalibrator.a,
+					/usr/local/lib/liblogpolarclient.a,
+					/usr/local/lib/liblogpolargrabber.a,
+					/usr/local/lib/liblogpolar.a,
+					/usr/local/lib/libdebugInterfaceClient.a,
+					/usr/local/lib/libdebugInterfaceWrapper.a,
+					/usr/local/lib/libembObjMotionControl.a,
+					/usr/local/lib/libiCubDev.a,
+					/usr/local/lib/libethResources.a,
+					/usr/local/lib/libctrlLib.a,
+					/usr/local/lib/libgsl.dylib,
+					/usr/local/lib/libgslcblas.dylib,
+					/usr/local/lib/libipopt.dylib,
+					/usr/lib/liblapack.dylib,
+					/usr/lib/libblas.dylib,
+					/usr/lib/libm.dylib,
+					/usr/lib/libdl.dylib,
+					/usr/local/lib/libcoinmumps.dylib,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib,
+					"-framework",
+					System,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib,
+					/usr/lib/libblas.dylib,
+					/usr/lib/libm.dylib,
+					/usr/lib/libdl.dylib,
+					/usr/local/lib/libcoinmumps.dylib,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib,
+					"-framework",
+					System,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib,
+					/usr/local/lib/libcoinmetis.dylib,
+					/usr/local/lib/liblib0.a,
+					/usr/local/lib/libYARP_math.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_dev.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_sig.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_name.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_init.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_OS.2.3.63.6.dylib,
+					/usr/local/lib/libACE.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = iSpeak_module;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/iSpeak-Turkish";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		67AB80061FDC41C4A3722294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/iSpeak-Turkish";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		6A52A4BFD22E4861884666C2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/iSpeak-Turkish/build";
+			};
+			name = RelWithDebInfo;
+		};
+		7347376FC470439A9FF8F7AF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/iSpeak-Turkish";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		8E2A073A529C43509F121F9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/iSpeak-Turkish";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		A206CDB911434CA7977ACE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/iSpeak-Turkish";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		B5F8901F4C1544C6BAEEF37E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/iSpeak-Turkish";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		BE40BC650CD64F49B6A4F855 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/iSpeak-Turkish";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		C7E36EC7606F47E1899AC01C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/iSpeak-Turkish/build";
+			};
+			name = MinSizeRel;
+		};
+		D87DB3DC680942EB8F55E287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/iSpeak-Turkish/build";
+			};
+			name = Release;
+		};
+		DC45BF65A06846DE82BC4D8E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/iSpeak-Turkish";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68ECCDBB97404BAC8D3C2092 /* Build configuration list for PBXProject "iSpeak_module" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2998424C78234159BACB66C4 /* Debug */,
+				D87DB3DC680942EB8F55E287 /* Release */,
+				C7E36EC7606F47E1899AC01C /* MinSizeRel */,
+				6A52A4BFD22E4861884666C2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6C7F1617D09B40EEA01E8935 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A206CDB911434CA7977ACE73 /* Debug */,
+				8E2A073A529C43509F121F9C /* Release */,
+				B5F8901F4C1544C6BAEEF37E /* MinSizeRel */,
+				7347376FC470439A9FF8F7AF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9885C96FA8CE4304B404D2A6 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67AB80061FDC41C4A3722294 /* Debug */,
+				2FFFDD1D59B64A87B90830B1 /* Release */,
+				DC45BF65A06846DE82BC4D8E /* MinSizeRel */,
+				BE40BC650CD64F49B6A4F855 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D9A0ADDD9E6F4EF898BFEB25 /* Build configuration list for PBXNativeTarget "iSpeak_module" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FEAB2512A3F4E94BCE24E4D /* Debug */,
+				5575D19CDFA94278B83A4E16 /* Release */,
+				548795DCEAE34C889D393F05 /* MinSizeRel */,
+				1B866899632C4B3BB2F2A564 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BA195DA914D432EB45079F2 /* Project object */;
+}

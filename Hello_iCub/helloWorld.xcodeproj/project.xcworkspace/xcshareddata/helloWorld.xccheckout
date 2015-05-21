@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8B1A0C87-BD95-4490-942F-77F9F97D06BE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>helloWorld</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CF2CD46FA0991DA913D3E0E5D285002D79D6B1FE</key>
+		<string>https://github.com/Semyonic/iCub_Turkish-actionRecognition.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Hello_iCub/helloWorld.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CF2CD46FA0991DA913D3E0E5D285002D79D6B1FE</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Semyonic/iCub_Turkish-actionRecognition.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CF2CD46FA0991DA913D3E0E5D285002D79D6B1FE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CF2CD46FA0991DA913D3E0E5D285002D79D6B1FE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iCub_Turkish-actionRecognition</string>
+		</dict>
+	</array>
+</dict>
+</plist>

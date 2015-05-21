@@ -1,0 +1,26 @@
+<report>
+	<user>alessandro scalzo</user>
+	<comment>this is a wild bunch of tests</comment>
+	<success>YES</success>
+	<failures-total>0</failures-total>
+	<test>
+		<description>Set each joint position to 15.0 degrees</description>
+		<references>
+			<datetime>Fri Feb 13 19:15:23 2015
+</datetime>
+			<part>00001</part>
+		</references>
+		<outcome>FAILURE</outcome>
+		<failures>0</failures>
+	</test>
+	<test>
+		<description>Set each joint position to 15.0 degrees</description>
+		<references>
+			<datetime>Fri Feb 13 19:15:23 2015
+</datetime>
+			<part>00001</part>
+		</references>
+		<outcome>FAILURE</outcome>
+		<failures>0</failures>
+	</test>
+</report>

@@ -1,0 +1,1195 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8C54F4803450460D9E03F4C0 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 713A8AE3151446F5909ECB22 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				5E66291A78FF4C86ADCF7638 /* CMake Rules */,
+			);
+			dependencies = (
+				1D438C7E08354A7B984DAAB2 /* PBXTargetDependency */,
+				81C5D7424E4C4BA29C2567B6 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		A5D08799342C49D2B81FB65A /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1BECE99BCA154CB6A03214F7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				26DB63DBF9BA46D08AB6F193 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		A6FEFFDCC2EB4F7ABD79F410 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F3F56B299BD4E3D960F3E49 /* main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B596463B7F44C1FA0E4F33D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60C06DB84BE4CE3B08970B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE131B40FF40416EA634AF0D;
+			remoteInfo = actionPrims;
+		};
+		50E17B440B734DDAA12956B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60C06DB84BE4CE3B08970B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5D08799342C49D2B81FB65A;
+			remoteInfo = ZERO_CHECK;
+		};
+		C4B9677C1A3449A480D0AE8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60C06DB84BE4CE3B08970B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5D08799342C49D2B81FB65A;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75635DBCF2BB4226AE3627D3 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8BE662D4B08A4C59B61714BA /* actionPrims */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = actionPrims; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F3F56B299BD4E3D960F3E49 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		AFD2580432084AC19318C89E /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D5E31B011B2145D79ACBCC62 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		5B8F9D4D023D4F3AAD891899 = {
+			isa = PBXGroup;
+			children = (
+				C6A1D67BFEC54BE7A1186D21 /* Sources */,
+				B083B394992F45D395BE3B4E /* Resources */,
+				78617F07B0D949D2BD641400 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D99B7ABBA8F4F77A0361DA1 /* actionPrims */ = {
+			isa = PBXGroup;
+			children = (
+				6CD054E975BD43C79051A82B /* Source Files */,
+				D5E31B011B2145D79ACBCC62 /* CMakeLists.txt */,
+			);
+			name = actionPrims;
+			sourceTree = "<group>";
+		};
+		6CD054E975BD43C79051A82B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F3F56B299BD4E3D960F3E49 /* main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		78617F07B0D949D2BD641400 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BE662D4B08A4C59B61714BA /* actionPrims */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		883F58882D234FEC8767E0B5 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				F674AD9BB14F4131B7F07A6A /* CMake Rules */,
+				AFD2580432084AC19318C89E /* CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		B083B394992F45D395BE3B4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C6A1D67BFEC54BE7A1186D21 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E32359F53FC746BDB58C2FA3 /* ALL_BUILD */,
+				5D99B7ABBA8F4F77A0361DA1 /* actionPrims */,
+				883F58882D234FEC8767E0B5 /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		E32359F53FC746BDB58C2FA3 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				FB1A0F54232A4F8092E9B850 /* CMake Rules */,
+				75635DBCF2BB4226AE3627D3 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		F674AD9BB14F4131B7F07A6A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		FB1A0F54232A4F8092E9B850 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE131B40FF40416EA634AF0D /* actionPrims */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C42A7509C24058863683A8 /* Build configuration list for PBXNativeTarget "actionPrims" */;
+			buildPhases = (
+				625973F46A5A46758126FC2A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B648510EEB5E4AEB90F05263 /* PBXTargetDependency */,
+			);
+			name = actionPrims;
+			productName = actionPrims;
+			productReference = 8BE662D4B08A4C59B61714BA /* actionPrims */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A60C06DB84BE4CE3B08970B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = BE58ACFCF4F84E8AB8532AD1 /* Build configuration list for PBXProject "actionPrims" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B8F9D4D023D4F3AAD891899;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C54F4803450460D9E03F4C0 /* ALL_BUILD */,
+				A5D08799342C49D2B81FB65A /* ZERO_CHECK */,
+				CE131B40FF40416EA634AF0D /* actionPrims */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26DB63DBF9BA46D08AB6F193 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Semih/iCub_Turkish-actionRecognition/actionPrimitives_Example -f /Users/Semih/iCub_Turkish-actionRecognition/actionPrimitives_Example/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		5E66291A78FF4C86ADCF7638 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Semih/iCub_Turkish-actionRecognition/actionPrimitives_Example -f /Users/Semih/iCub_Turkish-actionRecognition/actionPrimitives_Example/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		625973F46A5A46758126FC2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6FEFFDCC2EB4F7ABD79F410 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D438C7E08354A7B984DAAB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE131B40FF40416EA634AF0D /* actionPrims */;
+			targetProxy = 2B596463B7F44C1FA0E4F33D /* PBXContainerItemProxy */;
+		};
+		81C5D7424E4C4BA29C2567B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5D08799342C49D2B81FB65A /* ZERO_CHECK */;
+			targetProxy = C4B9677C1A3449A480D0AE8F /* PBXContainerItemProxy */;
+		};
+		B648510EEB5E4AEB90F05263 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5D08799342C49D2B81FB65A /* ZERO_CHECK */;
+			targetProxy = 50E17B440B734DDAA12956B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13927AAA235F485D83A68FC8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/actionPrimitives_Example";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		18121FBE1915448E8AEE1BA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/actionPrimitives_Example";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		1F56F22F6F3A43989BD6A433 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9,
+				);
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libiCubIDLClients.a,
+					/usr/local/lib/libiCubDev.a,
+					/usr/local/lib/libiCubVis.a,
+					/usr/local/lib/liblogpolar.a,
+					/usr/local/lib/libboostMIL.a,
+					/usr/local/lib/libctrlLib.a,
+					/usr/local/lib/libskinDynLib.a,
+					/usr/local/lib/libiKin.a,
+					/usr/local/lib/libiDyn.a,
+					/usr/local/lib/liblearningMachine.a,
+					/usr/local/lib/libperceptiveModels.a,
+					/usr/local/lib/libactionPrimitives.a,
+					/usr/local/lib/libarmcalibrator.a,
+					/usr/local/lib/libarmcalibratorj8.a,
+					/usr/local/lib/libcartesiancontrollerserver.a,
+					/usr/local/lib/libcartesiancontrollerclient.a,
+					/usr/local/lib/libgazecontrollerclient.a,
+					/usr/local/lib/libhandcalibrator.a,
+					/usr/local/lib/liblegscalibrator.a,
+					/usr/local/lib/liblogpolarclient.a,
+					/usr/local/lib/liblogpolargrabber.a,
+					/usr/local/lib/libdebugInterfaceClient.a,
+					/usr/local/lib/libdebugInterfaceWrapper.a,
+					/usr/local/lib/libembObjMotionControl.a,
+					/usr/local/lib/libethResources.a,
+					/usr/local/lib/libicubmod.a,
+					/usr/local/lib/libd4c.a,
+					/usr/local/lib/liboptimization.a,
+					/usr/local/lib/liblib0.a,
+					/usr/local/lib/liblib1.a,
+					/usr/local/lib/libsharksWithLasers.a,
+					/usr/local/lib/libcanLoaderLib.a,
+					"-lopencv_videostab",
+					"-lopencv_video",
+					"-lopencv_ts",
+					"-lopencv_superres",
+					"-lopencv_stitching",
+					"-lopencv_photo",
+					"-lopencv_ocl",
+					"-lopencv_objdetect",
+					"-lopencv_nonfree",
+					"-lopencv_ml",
+					"-lopencv_legacy",
+					"-lopencv_imgproc",
+					"-lopencv_highgui",
+					"-lopencv_gpu",
+					"-lopencv_flann",
+					"-lopencv_features2d",
+					"-lopencv_core",
+					"-lopencv_contrib",
+					"-lopencv_calib3d",
+					/usr/local/lib/libskinDynLib.a,
+					/usr/local/lib/libperceptiveModels.a,
+					/usr/local/lib/liblearningMachine.a,
+					/usr/local/lib/libicubmod.a,
+					/usr/local/lib/libarmcalibrator.a,
+					/usr/local/lib/libarmcalibratorj8.a,
+					/usr/local/lib/libcartesiancontrollerserver.a,
+					/usr/local/lib/libcartesiancontrollerclient.a,
+					/usr/local/lib/libiKin.a,
+					/usr/local/lib/libgazecontrollerclient.a,
+					/usr/local/lib/libhandcalibrator.a,
+					/usr/local/lib/liblegscalibrator.a,
+					/usr/local/lib/liblogpolarclient.a,
+					/usr/local/lib/liblogpolargrabber.a,
+					/usr/local/lib/liblogpolar.a,
+					/usr/local/lib/libdebugInterfaceClient.a,
+					/usr/local/lib/libdebugInterfaceWrapper.a,
+					/usr/local/lib/libembObjMotionControl.a,
+					/usr/local/lib/libiCubDev.a,
+					/usr/local/lib/libethResources.a,
+					/usr/local/lib/libctrlLib.a,
+					/usr/local/lib/libgsl.dylib,
+					/usr/local/lib/libgslcblas.dylib,
+					/usr/local/lib/libipopt.dylib,
+					/usr/lib/liblapack.dylib,
+					/usr/lib/libblas.dylib,
+					/usr/lib/libm.dylib,
+					/usr/lib/libdl.dylib,
+					/usr/local/lib/libcoinmumps.dylib,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib,
+					"-framework",
+					System,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib,
+					/usr/lib/libblas.dylib,
+					/usr/lib/libm.dylib,
+					/usr/lib/libdl.dylib,
+					/usr/local/lib/libcoinmumps.dylib,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib,
+					"-framework",
+					System,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib,
+					/usr/local/lib/libcoinmetis.dylib,
+					/usr/local/lib/liblib0.a,
+					/usr/local/lib/libYARP_math.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_dev.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_sig.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_name.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_init.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_OS.2.3.63.6.dylib,
+					/usr/local/lib/libACE.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = actionPrims;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/actionPrimitives_Example";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		3A296247DB6E4177B296E920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/actionPrimitives_Example";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		4A30561F0323465F9386768D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/actionPrimitives_Example";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		4EBE7927A25747C98F25CFE7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/actionPrimitives_Example/build";
+			};
+			name = RelWithDebInfo;
+		};
+		5ECCAB57673046E2B3650E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/actionPrimitives_Example";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		6930C3E0430C4D8D9FB0D4AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9,
+				);
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libiCubIDLClients.a,
+					/usr/local/lib/libiCubDev.a,
+					/usr/local/lib/libiCubVis.a,
+					/usr/local/lib/liblogpolar.a,
+					/usr/local/lib/libboostMIL.a,
+					/usr/local/lib/libctrlLib.a,
+					/usr/local/lib/libskinDynLib.a,
+					/usr/local/lib/libiKin.a,
+					/usr/local/lib/libiDyn.a,
+					/usr/local/lib/liblearningMachine.a,
+					/usr/local/lib/libperceptiveModels.a,
+					/usr/local/lib/libactionPrimitives.a,
+					/usr/local/lib/libarmcalibrator.a,
+					/usr/local/lib/libarmcalibratorj8.a,
+					/usr/local/lib/libcartesiancontrollerserver.a,
+					/usr/local/lib/libcartesiancontrollerclient.a,
+					/usr/local/lib/libgazecontrollerclient.a,
+					/usr/local/lib/libhandcalibrator.a,
+					/usr/local/lib/liblegscalibrator.a,
+					/usr/local/lib/liblogpolarclient.a,
+					/usr/local/lib/liblogpolargrabber.a,
+					/usr/local/lib/libdebugInterfaceClient.a,
+					/usr/local/lib/libdebugInterfaceWrapper.a,
+					/usr/local/lib/libembObjMotionControl.a,
+					/usr/local/lib/libethResources.a,
+					/usr/local/lib/libicubmod.a,
+					/usr/local/lib/libd4c.a,
+					/usr/local/lib/liboptimization.a,
+					/usr/local/lib/liblib0.a,
+					/usr/local/lib/liblib1.a,
+					/usr/local/lib/libsharksWithLasers.a,
+					/usr/local/lib/libcanLoaderLib.a,
+					"-lopencv_videostab",
+					"-lopencv_video",
+					"-lopencv_ts",
+					"-lopencv_superres",
+					"-lopencv_stitching",
+					"-lopencv_photo",
+					"-lopencv_ocl",
+					"-lopencv_objdetect",
+					"-lopencv_nonfree",
+					"-lopencv_ml",
+					"-lopencv_legacy",
+					"-lopencv_imgproc",
+					"-lopencv_highgui",
+					"-lopencv_gpu",
+					"-lopencv_flann",
+					"-lopencv_features2d",
+					"-lopencv_core",
+					"-lopencv_contrib",
+					"-lopencv_calib3d",
+					/usr/local/lib/libskinDynLib.a,
+					/usr/local/lib/libperceptiveModels.a,
+					/usr/local/lib/liblearningMachine.a,
+					/usr/local/lib/libicubmod.a,
+					/usr/local/lib/libarmcalibrator.a,
+					/usr/local/lib/libarmcalibratorj8.a,
+					/usr/local/lib/libcartesiancontrollerserver.a,
+					/usr/local/lib/libcartesiancontrollerclient.a,
+					/usr/local/lib/libiKin.a,
+					/usr/local/lib/libgazecontrollerclient.a,
+					/usr/local/lib/libhandcalibrator.a,
+					/usr/local/lib/liblegscalibrator.a,
+					/usr/local/lib/liblogpolarclient.a,
+					/usr/local/lib/liblogpolargrabber.a,
+					/usr/local/lib/liblogpolar.a,
+					/usr/local/lib/libdebugInterfaceClient.a,
+					/usr/local/lib/libdebugInterfaceWrapper.a,
+					/usr/local/lib/libembObjMotionControl.a,
+					/usr/local/lib/libiCubDev.a,
+					/usr/local/lib/libethResources.a,
+					/usr/local/lib/libctrlLib.a,
+					/usr/local/lib/libgsl.dylib,
+					/usr/local/lib/libgslcblas.dylib,
+					/usr/local/lib/libipopt.dylib,
+					/usr/lib/liblapack.dylib,
+					/usr/lib/libblas.dylib,
+					/usr/lib/libm.dylib,
+					/usr/lib/libdl.dylib,
+					/usr/local/lib/libcoinmumps.dylib,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib,
+					"-framework",
+					System,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib,
+					/usr/lib/libblas.dylib,
+					/usr/lib/libm.dylib,
+					/usr/lib/libdl.dylib,
+					/usr/local/lib/libcoinmumps.dylib,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib,
+					"-framework",
+					System,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib,
+					/usr/local/lib/libcoinmetis.dylib,
+					/usr/local/lib/liblib0.a,
+					/usr/local/lib/libYARP_math.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_dev.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_sig.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_name.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_init.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_OS.2.3.63.6.dylib,
+					/usr/local/lib/libACE.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = actionPrims;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/actionPrimitives_Example";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		7E1AF3B5FE864ADF9FFB4A98 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9,
+				);
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libiCubIDLClients.a,
+					/usr/local/lib/libiCubDev.a,
+					/usr/local/lib/libiCubVis.a,
+					/usr/local/lib/liblogpolar.a,
+					/usr/local/lib/libboostMIL.a,
+					/usr/local/lib/libctrlLib.a,
+					/usr/local/lib/libskinDynLib.a,
+					/usr/local/lib/libiKin.a,
+					/usr/local/lib/libiDyn.a,
+					/usr/local/lib/liblearningMachine.a,
+					/usr/local/lib/libperceptiveModels.a,
+					/usr/local/lib/libactionPrimitives.a,
+					/usr/local/lib/libarmcalibrator.a,
+					/usr/local/lib/libarmcalibratorj8.a,
+					/usr/local/lib/libcartesiancontrollerserver.a,
+					/usr/local/lib/libcartesiancontrollerclient.a,
+					/usr/local/lib/libgazecontrollerclient.a,
+					/usr/local/lib/libhandcalibrator.a,
+					/usr/local/lib/liblegscalibrator.a,
+					/usr/local/lib/liblogpolarclient.a,
+					/usr/local/lib/liblogpolargrabber.a,
+					/usr/local/lib/libdebugInterfaceClient.a,
+					/usr/local/lib/libdebugInterfaceWrapper.a,
+					/usr/local/lib/libembObjMotionControl.a,
+					/usr/local/lib/libethResources.a,
+					/usr/local/lib/libicubmod.a,
+					/usr/local/lib/libd4c.a,
+					/usr/local/lib/liboptimization.a,
+					/usr/local/lib/liblib0.a,
+					/usr/local/lib/liblib1.a,
+					/usr/local/lib/libsharksWithLasers.a,
+					/usr/local/lib/libcanLoaderLib.a,
+					"-lopencv_videostab",
+					"-lopencv_video",
+					"-lopencv_ts",
+					"-lopencv_superres",
+					"-lopencv_stitching",
+					"-lopencv_photo",
+					"-lopencv_ocl",
+					"-lopencv_objdetect",
+					"-lopencv_nonfree",
+					"-lopencv_ml",
+					"-lopencv_legacy",
+					"-lopencv_imgproc",
+					"-lopencv_highgui",
+					"-lopencv_gpu",
+					"-lopencv_flann",
+					"-lopencv_features2d",
+					"-lopencv_core",
+					"-lopencv_contrib",
+					"-lopencv_calib3d",
+					/usr/local/lib/libskinDynLib.a,
+					/usr/local/lib/libperceptiveModels.a,
+					/usr/local/lib/liblearningMachine.a,
+					/usr/local/lib/libicubmod.a,
+					/usr/local/lib/libarmcalibrator.a,
+					/usr/local/lib/libarmcalibratorj8.a,
+					/usr/local/lib/libcartesiancontrollerserver.a,
+					/usr/local/lib/libcartesiancontrollerclient.a,
+					/usr/local/lib/libiKin.a,
+					/usr/local/lib/libgazecontrollerclient.a,
+					/usr/local/lib/libhandcalibrator.a,
+					/usr/local/lib/liblegscalibrator.a,
+					/usr/local/lib/liblogpolarclient.a,
+					/usr/local/lib/liblogpolargrabber.a,
+					/usr/local/lib/liblogpolar.a,
+					/usr/local/lib/libdebugInterfaceClient.a,
+					/usr/local/lib/libdebugInterfaceWrapper.a,
+					/usr/local/lib/libembObjMotionControl.a,
+					/usr/local/lib/libiCubDev.a,
+					/usr/local/lib/libethResources.a,
+					/usr/local/lib/libctrlLib.a,
+					/usr/local/lib/libgsl.dylib,
+					/usr/local/lib/libgslcblas.dylib,
+					/usr/local/lib/libipopt.dylib,
+					/usr/lib/liblapack.dylib,
+					/usr/lib/libblas.dylib,
+					/usr/lib/libm.dylib,
+					/usr/lib/libdl.dylib,
+					/usr/local/lib/libcoinmumps.dylib,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib,
+					"-framework",
+					System,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib,
+					/usr/lib/libblas.dylib,
+					/usr/lib/libm.dylib,
+					/usr/lib/libdl.dylib,
+					/usr/local/lib/libcoinmumps.dylib,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib,
+					"-framework",
+					System,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib,
+					/usr/local/lib/libcoinmetis.dylib,
+					/usr/local/lib/liblib0.a,
+					/usr/local/lib/libYARP_math.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_dev.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_sig.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_name.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_init.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_OS.2.3.63.6.dylib,
+					/usr/local/lib/libACE.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = actionPrims;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/actionPrimitives_Example";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		8236AC2772CD4E388D213979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9,
+				);
+				OTHER_CFLAGS = "    ";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libiCubIDLClients.a,
+					/usr/local/lib/libiCubDev.a,
+					/usr/local/lib/libiCubVis.a,
+					/usr/local/lib/liblogpolar.a,
+					/usr/local/lib/libboostMIL.a,
+					/usr/local/lib/libctrlLib.a,
+					/usr/local/lib/libskinDynLib.a,
+					/usr/local/lib/libiKin.a,
+					/usr/local/lib/libiDyn.a,
+					/usr/local/lib/liblearningMachine.a,
+					/usr/local/lib/libperceptiveModels.a,
+					/usr/local/lib/libactionPrimitives.a,
+					/usr/local/lib/libarmcalibrator.a,
+					/usr/local/lib/libarmcalibratorj8.a,
+					/usr/local/lib/libcartesiancontrollerserver.a,
+					/usr/local/lib/libcartesiancontrollerclient.a,
+					/usr/local/lib/libgazecontrollerclient.a,
+					/usr/local/lib/libhandcalibrator.a,
+					/usr/local/lib/liblegscalibrator.a,
+					/usr/local/lib/liblogpolarclient.a,
+					/usr/local/lib/liblogpolargrabber.a,
+					/usr/local/lib/libdebugInterfaceClient.a,
+					/usr/local/lib/libdebugInterfaceWrapper.a,
+					/usr/local/lib/libembObjMotionControl.a,
+					/usr/local/lib/libethResources.a,
+					/usr/local/lib/libicubmod.a,
+					/usr/local/lib/libd4c.a,
+					/usr/local/lib/liboptimization.a,
+					/usr/local/lib/liblib0.a,
+					/usr/local/lib/liblib1.a,
+					/usr/local/lib/libsharksWithLasers.a,
+					/usr/local/lib/libcanLoaderLib.a,
+					"-lopencv_videostab",
+					"-lopencv_video",
+					"-lopencv_ts",
+					"-lopencv_superres",
+					"-lopencv_stitching",
+					"-lopencv_photo",
+					"-lopencv_ocl",
+					"-lopencv_objdetect",
+					"-lopencv_nonfree",
+					"-lopencv_ml",
+					"-lopencv_legacy",
+					"-lopencv_imgproc",
+					"-lopencv_highgui",
+					"-lopencv_gpu",
+					"-lopencv_flann",
+					"-lopencv_features2d",
+					"-lopencv_core",
+					"-lopencv_contrib",
+					"-lopencv_calib3d",
+					/usr/local/lib/libskinDynLib.a,
+					/usr/local/lib/libperceptiveModels.a,
+					/usr/local/lib/liblearningMachine.a,
+					/usr/local/lib/libicubmod.a,
+					/usr/local/lib/libarmcalibrator.a,
+					/usr/local/lib/libarmcalibratorj8.a,
+					/usr/local/lib/libcartesiancontrollerserver.a,
+					/usr/local/lib/libcartesiancontrollerclient.a,
+					/usr/local/lib/libiKin.a,
+					/usr/local/lib/libgazecontrollerclient.a,
+					/usr/local/lib/libhandcalibrator.a,
+					/usr/local/lib/liblegscalibrator.a,
+					/usr/local/lib/liblogpolarclient.a,
+					/usr/local/lib/liblogpolargrabber.a,
+					/usr/local/lib/liblogpolar.a,
+					/usr/local/lib/libdebugInterfaceClient.a,
+					/usr/local/lib/libdebugInterfaceWrapper.a,
+					/usr/local/lib/libembObjMotionControl.a,
+					/usr/local/lib/libiCubDev.a,
+					/usr/local/lib/libethResources.a,
+					/usr/local/lib/libctrlLib.a,
+					/usr/local/lib/libgsl.dylib,
+					/usr/local/lib/libgslcblas.dylib,
+					/usr/local/lib/libipopt.dylib,
+					/usr/lib/liblapack.dylib,
+					/usr/lib/libblas.dylib,
+					/usr/lib/libm.dylib,
+					/usr/lib/libdl.dylib,
+					/usr/local/lib/libcoinmumps.dylib,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib,
+					"-framework",
+					System,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib,
+					/usr/lib/libblas.dylib,
+					/usr/lib/libm.dylib,
+					/usr/lib/libdl.dylib,
+					/usr/local/lib/libcoinmumps.dylib,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib,
+					"-framework",
+					System,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib,
+					/usr/local/lib/libcoinmetis.dylib,
+					/usr/local/lib/liblib0.a,
+					/usr/local/lib/libYARP_math.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_dev.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_sig.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_name.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_init.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_OS.2.3.63.6.dylib,
+					/usr/local/lib/libACE.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = actionPrims;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/actionPrimitives_Example";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		95B091799EE1411DA87481D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/actionPrimitives_Example/build";
+			};
+			name = Release;
+		};
+		AC34AE855AE7476AB0C883CE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/actionPrimitives_Example";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		B1A2D5401F034C2C88F73981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/actionPrimitives_Example/build";
+			};
+			name = Debug;
+		};
+		C27DA9F34E604AE3B17A98E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/actionPrimitives_Example";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		CC9C02A254DC4A958BDC1027 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/actionPrimitives_Example";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		D4C6561716BA430CAAF00A45 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/actionPrimitives_Example/build";
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16C42A7509C24058863683A8 /* Build configuration list for PBXNativeTarget "actionPrims" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8236AC2772CD4E388D213979 /* Debug */,
+				6930C3E0430C4D8D9FB0D4AE /* Release */,
+				7E1AF3B5FE864ADF9FFB4A98 /* MinSizeRel */,
+				1F56F22F6F3A43989BD6A433 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1BECE99BCA154CB6A03214F7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A296247DB6E4177B296E920 /* Debug */,
+				5ECCAB57673046E2B3650E6F /* Release */,
+				4A30561F0323465F9386768D /* MinSizeRel */,
+				13927AAA235F485D83A68FC8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		713A8AE3151446F5909ECB22 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18121FBE1915448E8AEE1BA3 /* Debug */,
+				C27DA9F34E604AE3B17A98E0 /* Release */,
+				CC9C02A254DC4A958BDC1027 /* MinSizeRel */,
+				AC34AE855AE7476AB0C883CE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BE58ACFCF4F84E8AB8532AD1 /* Build configuration list for PBXProject "actionPrims" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1A2D5401F034C2C88F73981 /* Debug */,
+				95B091799EE1411DA87481D2 /* Release */,
+				D4C6561716BA430CAAF00A45 /* MinSizeRel */,
+				4EBE7927A25747C98F25CFE7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A60C06DB84BE4CE3B08970B9 /* Project object */;
+}

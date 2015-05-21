@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		09713F12729D4AF78F5C3F59 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D23893653656456BB6B27C41 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				40AE60DAAB15404C992B7D33 /* CMake Rules */,
+			);
+			dependencies = (
+				A5D68FAE7ADC4089A5D915FF /* PBXTargetDependency */,
+				39B5D3874F724E5980C63EEA /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		1A0579F7163645A0937586C4 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 78C3670212034D93A3AFF06F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				4A192BC9328740EFB90387B0 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		4E9CA31D47214E589048F015 /* armsControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CB71003AB0344FA3B660B80D /* armsControl.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F61BF23D1444BCC87F536AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFCF1D8A27CA410CAFC372FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A0579F7163645A0937586C4;
+			remoteInfo = ZERO_CHECK;
+		};
+		DAABADEAEB7D4A1C9BEC318E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFCF1D8A27CA410CAFC372FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A4DE8C8AA614D9AAADC2B7B;
+			remoteInfo = armsControl;
+		};
+		EFB3D008E88D40418AE7933B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFCF1D8A27CA410CAFC372FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A0579F7163645A0937586C4;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007C54212FC84A72AB7EFB61 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1FB85F7851894CA183F8E64E /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9D6BB1A1FD84486680F93E6B /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B82EB59B43814C0BB78F522A /* armsControl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = armsControl; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB71003AB0344FA3B660B80D /* armsControl.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = armsControl.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0244DBB7A3374B2881CB305E /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		0F3306BB24F24D62990E9EFD /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		2D3A7048F3C14034B5A2C4A6 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				0244DBB7A3374B2881CB305E /* CMake Rules */,
+				9D6BB1A1FD84486680F93E6B /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		3F1FB2EC3B284A4FB87461B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9CCCD26B9E974944BFB82850 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				0F3306BB24F24D62990E9EFD /* CMake Rules */,
+				1FB85F7851894CA183F8E64E /* CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		A53C00F9D9254C16920CF6AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B82EB59B43814C0BB78F522A /* armsControl */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D17375A14A1E408BB1A5C704 = {
+			isa = PBXGroup;
+			children = (
+				D5276AD59E384B0BBDC8B553 /* Sources */,
+				3F1FB2EC3B284A4FB87461B8 /* Resources */,
+				A53C00F9D9254C16920CF6AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5276AD59E384B0BBDC8B553 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2D3A7048F3C14034B5A2C4A6 /* ALL_BUILD */,
+				D5B7544BC9714CC4814E3386 /* armsControl */,
+				9CCCD26B9E974944BFB82850 /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		D5B7544BC9714CC4814E3386 /* armsControl */ = {
+			isa = PBXGroup;
+			children = (
+				F3C70E13D38347DC8CC82F47 /* Source Files */,
+				007C54212FC84A72AB7EFB61 /* CMakeLists.txt */,
+			);
+			name = armsControl;
+			sourceTree = "<group>";
+		};
+		F3C70E13D38347DC8CC82F47 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB71003AB0344FA3B660B80D /* armsControl.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A4DE8C8AA614D9AAADC2B7B /* armsControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD552205A6B44EB7AA14A798 /* Build configuration list for PBXNativeTarget "armsControl" */;
+			buildPhases = (
+				4721D350F0C1495EA8FE5322 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				030C574AF7064BB58C486B60 /* PBXTargetDependency */,
+			);
+			name = armsControl;
+			productName = armsControl;
+			productReference = B82EB59B43814C0BB78F522A /* armsControl */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFCF1D8A27CA410CAFC372FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = 5A5904FEE0164BCE8AA01065 /* Build configuration list for PBXProject "armsControlTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D17375A14A1E408BB1A5C704;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09713F12729D4AF78F5C3F59 /* ALL_BUILD */,
+				1A0579F7163645A0937586C4 /* ZERO_CHECK */,
+				6A4DE8C8AA614D9AAADC2B7B /* armsControl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40AE60DAAB15404C992B7D33 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Semih/iCub_Turkish-actionRecognition/ArmsControl -f /Users/Semih/iCub_Turkish-actionRecognition/ArmsControl/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		4A192BC9328740EFB90387B0 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Semih/iCub_Turkish-actionRecognition/ArmsControl -f /Users/Semih/iCub_Turkish-actionRecognition/ArmsControl/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4721D350F0C1495EA8FE5322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E9CA31D47214E589048F015 /* armsControl.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		030C574AF7064BB58C486B60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A0579F7163645A0937586C4 /* ZERO_CHECK */;
+			targetProxy = 9F61BF23D1444BCC87F536AD /* PBXContainerItemProxy */;
+		};
+		39B5D3874F724E5980C63EEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A0579F7163645A0937586C4 /* ZERO_CHECK */;
+			targetProxy = EFB3D008E88D40418AE7933B /* PBXContainerItemProxy */;
+		};
+		A5D68FAE7ADC4089A5D915FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A4DE8C8AA614D9AAADC2B7B /* armsControl */;
+			targetProxy = DAABADEAEB7D4A1C9BEC318E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		088EA9EB0C5C47F59E3992F7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/ArmsControl/build";
+			};
+			name = MinSizeRel;
+		};
+		0E4D306878614D12A58E09B6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/ArmsControl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		12938597FAC54F789E433A3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/ArmsControl/build";
+			};
+			name = Release;
+		};
+		131AA8BACFC645C19BD3BE5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libYARP_math.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_dev.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_name.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_init.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_sig.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_OS.2.3.63.6.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = armsControl;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/ArmsControl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		27789C14788E4F61A8C2F391 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libYARP_math.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_dev.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_name.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_init.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_sig.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_OS.2.3.63.6.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = armsControl;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/ArmsControl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		364013C9DE8749BDAAD90130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    ";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libYARP_math.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_dev.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_name.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_init.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_sig.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_OS.2.3.63.6.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = armsControl;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/ArmsControl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		3D38BDF3C0394F4BACE1C8B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/ArmsControl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		499CCACB44E04E2EBB40083A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/ArmsControl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		9D2C58C0000E4A4F8C5A2DF6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/ArmsControl/build";
+			};
+			name = RelWithDebInfo;
+		};
+		A70141630FEF40D69B993FE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/ArmsControl/build";
+			};
+			name = Debug;
+		};
+		B07D281CB708434CA370DF71 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/ArmsControl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		B35469B18D1D4883AA0F3A07 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/ArmsControl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		B5B09D665B4A48F483D02C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/ArmsControl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		D4F7EAC79E5A400C8EE84F2A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libYARP_math.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_dev.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_name.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_init.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_sig.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_OS.2.3.63.6.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = armsControl;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/ArmsControl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		EDF29698E22E4DA3BC542A7D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/ArmsControl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		F81E9E0148784D2888D2E088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/ArmsControl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A5904FEE0164BCE8AA01065 /* Build configuration list for PBXProject "armsControlTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70141630FEF40D69B993FE7 /* Debug */,
+				12938597FAC54F789E433A3D /* Release */,
+				088EA9EB0C5C47F59E3992F7 /* MinSizeRel */,
+				9D2C58C0000E4A4F8C5A2DF6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		78C3670212034D93A3AFF06F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D38BDF3C0394F4BACE1C8B0 /* Debug */,
+				B5B09D665B4A48F483D02C5E /* Release */,
+				0E4D306878614D12A58E09B6 /* MinSizeRel */,
+				EDF29698E22E4DA3BC542A7D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AD552205A6B44EB7AA14A798 /* Build configuration list for PBXNativeTarget "armsControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				364013C9DE8749BDAAD90130 /* Debug */,
+				131AA8BACFC645C19BD3BE5F /* Release */,
+				D4F7EAC79E5A400C8EE84F2A /* MinSizeRel */,
+				27789C14788E4F61A8C2F391 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D23893653656456BB6B27C41 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F81E9E0148784D2888D2E088 /* Debug */,
+				499CCACB44E04E2EBB40083A /* Release */,
+				B35469B18D1D4883AA0F3A07 /* MinSizeRel */,
+				B07D281CB708434CA370DF71 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFCF1D8A27CA410CAFC372FB /* Project object */;
+}

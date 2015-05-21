@@ -1,0 +1,1175 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1CF588C4CC5340D584CD713B /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F0792A9320A9466BB34F87E0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				8FF95AF39376443F9228580A /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		92EEBF27742C4081AD7535E2 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E9F9ADC63A7C4F05BD3E8120 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				F3C81CF5A104498D855C6BD0 /* CMake Rules */,
+			);
+			dependencies = (
+				179EBAC8A32D411783DC990F /* PBXTargetDependency */,
+				1430E1CE55294C80AE953C70 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		6B11076892E842BBA07DA811 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 94F1FB9E40904167AFA5B667 /* main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		900347F6A80145989E57B9F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8D229B22B7E4EFC8B7A5F0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CF588C4CC5340D584CD713B;
+			remoteInfo = ZERO_CHECK;
+		};
+		C5C1FC04EC46488FB3B7D110 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8D229B22B7E4EFC8B7A5F0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CF588C4CC5340D584CD713B;
+			remoteInfo = ZERO_CHECK;
+		};
+		FB3495C247634B829F5B2B3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8D229B22B7E4EFC8B7A5F0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26BBFDBDD1BA4D7082083877;
+			remoteInfo = imagePickUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B0B443CE8D84A9BBD7C8A1C /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		37272281A9DB4832ACB65443 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6245A8DF4AA448C5AD587D77 /* imagePickUp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = imagePickUp; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F5619D12C64FA08A3A8B1E /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		94F1FB9E40904167AFA5B667 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = main.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1D829FE3C4FB4D56846B4164 /* imagePickUp */ = {
+			isa = PBXGroup;
+			children = (
+				EA7CEEEDE1C6408A9BAC64BE /* Source Files */,
+				91F5619D12C64FA08A3A8B1E /* CMakeLists.txt */,
+			);
+			name = imagePickUp;
+			sourceTree = "<group>";
+		};
+		2485F440ADF04AB1818A6714 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		329F450B993F413C82C33D53 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				2485F440ADF04AB1818A6714 /* CMake Rules */,
+				37272281A9DB4832ACB65443 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		404C4C2DA7AE45D198EB7E8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6245A8DF4AA448C5AD587D77 /* imagePickUp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F6157933ABE4486BC59ACAC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1D829FE3C4FB4D56846B4164 /* imagePickUp */,
+				329F450B993F413C82C33D53 /* ALL_BUILD */,
+				924591D3674B4F319B717B72 /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		6FD613A68434426D8539A67E = {
+			isa = PBXGroup;
+			children = (
+				4F6157933ABE4486BC59ACAC /* Sources */,
+				E99F59B5928F4D46881644FB /* Resources */,
+				404C4C2DA7AE45D198EB7E8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		924591D3674B4F319B717B72 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				B01966E1F0494582BC530ADC /* CMake Rules */,
+				0B0B443CE8D84A9BBD7C8A1C /* CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		B01966E1F0494582BC530ADC /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E99F59B5928F4D46881644FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EA7CEEEDE1C6408A9BAC64BE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				94F1FB9E40904167AFA5B667 /* main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26BBFDBDD1BA4D7082083877 /* imagePickUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368ABC019C964BE89D4A4A6B /* Build configuration list for PBXNativeTarget "imagePickUp" */;
+			buildPhases = (
+				93BF5BE7D3D04612B088AED8 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32F922460ED3409781EBF1A2 /* PBXTargetDependency */,
+			);
+			name = imagePickUp;
+			productName = imagePickUp;
+			productReference = 6245A8DF4AA448C5AD587D77 /* imagePickUp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8D229B22B7E4EFC8B7A5F0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = 1176D623416F46E8AEB34C59 /* Build configuration list for PBXProject "imagePickUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6FD613A68434426D8539A67E;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92EEBF27742C4081AD7535E2 /* ALL_BUILD */,
+				1CF588C4CC5340D584CD713B /* ZERO_CHECK */,
+				26BBFDBDD1BA4D7082083877 /* imagePickUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FF95AF39376443F9228580A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Semih/iCub_Turkish-actionRecognition/imagePickUp -f /Users/Semih/iCub_Turkish-actionRecognition/imagePickUp/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F3C81CF5A104498D855C6BD0 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Semih/iCub_Turkish-actionRecognition/imagePickUp -f /Users/Semih/iCub_Turkish-actionRecognition/imagePickUp/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93BF5BE7D3D04612B088AED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B11076892E842BBA07DA811 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1430E1CE55294C80AE953C70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26BBFDBDD1BA4D7082083877 /* imagePickUp */;
+			targetProxy = FB3495C247634B829F5B2B3A /* PBXContainerItemProxy */;
+		};
+		179EBAC8A32D411783DC990F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CF588C4CC5340D584CD713B /* ZERO_CHECK */;
+			targetProxy = C5C1FC04EC46488FB3B7D110 /* PBXContainerItemProxy */;
+		};
+		32F922460ED3409781EBF1A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CF588C4CC5340D584CD713B /* ZERO_CHECK */;
+			targetProxy = 900347F6A80145989E57B9F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02985D66F69C4427A33F9DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    ";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libiCubIDLClients.a,
+					/usr/local/lib/libiCubDev.a,
+					/usr/local/lib/libiCubVis.a,
+					/usr/local/lib/liblogpolar.a,
+					/usr/local/lib/libboostMIL.a,
+					/usr/local/lib/libctrlLib.a,
+					/usr/local/lib/libskinDynLib.a,
+					/usr/local/lib/libiKin.a,
+					/usr/local/lib/libiDyn.a,
+					/usr/local/lib/liblearningMachine.a,
+					/usr/local/lib/libperceptiveModels.a,
+					/usr/local/lib/libactionPrimitives.a,
+					/usr/local/lib/libarmcalibrator.a,
+					/usr/local/lib/libarmcalibratorj8.a,
+					/usr/local/lib/libcartesiancontrollerserver.a,
+					/usr/local/lib/libcartesiancontrollerclient.a,
+					/usr/local/lib/libgazecontrollerclient.a,
+					/usr/local/lib/libhandcalibrator.a,
+					/usr/local/lib/liblegscalibrator.a,
+					/usr/local/lib/liblogpolarclient.a,
+					/usr/local/lib/liblogpolargrabber.a,
+					/usr/local/lib/libdebugInterfaceClient.a,
+					/usr/local/lib/libdebugInterfaceWrapper.a,
+					/usr/local/lib/libembObjMotionControl.a,
+					/usr/local/lib/libethResources.a,
+					/usr/local/lib/libicubmod.a,
+					/usr/local/lib/libd4c.a,
+					/usr/local/lib/liboptimization.a,
+					/usr/local/lib/liblib0.a,
+					/usr/local/lib/liblib1.a,
+					/usr/local/lib/libsharksWithLasers.a,
+					/usr/local/lib/libcanLoaderLib.a,
+					"-lopencv_videostab",
+					"-lopencv_video",
+					"-lopencv_ts",
+					"-lopencv_superres",
+					"-lopencv_stitching",
+					"-lopencv_photo",
+					"-lopencv_ocl",
+					"-lopencv_objdetect",
+					"-lopencv_nonfree",
+					"-lopencv_ml",
+					"-lopencv_legacy",
+					"-lopencv_imgproc",
+					"-lopencv_highgui",
+					"-lopencv_gpu",
+					"-lopencv_flann",
+					"-lopencv_features2d",
+					"-lopencv_core",
+					"-lopencv_contrib",
+					"-lopencv_calib3d",
+					/usr/local/lib/libskinDynLib.a,
+					/usr/local/lib/libperceptiveModels.a,
+					/usr/local/lib/liblearningMachine.a,
+					/usr/local/lib/libicubmod.a,
+					/usr/local/lib/libarmcalibrator.a,
+					/usr/local/lib/libarmcalibratorj8.a,
+					/usr/local/lib/libcartesiancontrollerserver.a,
+					/usr/local/lib/libcartesiancontrollerclient.a,
+					/usr/local/lib/libiKin.a,
+					/usr/local/lib/libgazecontrollerclient.a,
+					/usr/local/lib/libhandcalibrator.a,
+					/usr/local/lib/liblegscalibrator.a,
+					/usr/local/lib/liblogpolarclient.a,
+					/usr/local/lib/liblogpolargrabber.a,
+					/usr/local/lib/liblogpolar.a,
+					/usr/local/lib/libdebugInterfaceClient.a,
+					/usr/local/lib/libdebugInterfaceWrapper.a,
+					/usr/local/lib/libembObjMotionControl.a,
+					/usr/local/lib/libiCubDev.a,
+					/usr/local/lib/libethResources.a,
+					/usr/local/lib/libctrlLib.a,
+					/usr/local/lib/libgsl.dylib,
+					/usr/local/lib/libgslcblas.dylib,
+					/usr/local/lib/libipopt.dylib,
+					/usr/lib/liblapack.dylib,
+					/usr/lib/libblas.dylib,
+					/usr/lib/libm.dylib,
+					/usr/lib/libdl.dylib,
+					/usr/local/lib/libcoinmumps.dylib,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib,
+					"-framework",
+					System,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib,
+					/usr/lib/libblas.dylib,
+					/usr/lib/libm.dylib,
+					/usr/lib/libdl.dylib,
+					/usr/local/lib/libcoinmumps.dylib,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib,
+					"-framework",
+					System,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib,
+					/usr/local/lib/libcoinmetis.dylib,
+					/usr/local/lib/liblib0.a,
+					/usr/local/lib/libYARP_math.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_dev.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_sig.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_name.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_init.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_OS.2.3.63.6.dylib,
+					/usr/local/lib/libACE.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = imagePickUp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/imagePickUp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		03C5A68DBE1E4DD3A2060096 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/imagePickUp/build";
+			};
+			name = Release;
+		};
+		3170C62C50994795B3FB0D9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/imagePickUp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		4C7D44CC134946CA80B90034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/imagePickUp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		5433D7831F2A4012ADF8C44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/imagePickUp/build";
+			};
+			name = Debug;
+		};
+		56E92F61461E40378F46697F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/imagePickUp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		5848E6D9336C4C1EB0295029 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/imagePickUp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		6386CB61EE8D4466897F4F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/imagePickUp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		64FA9900CE8643288B53B006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libiCubIDLClients.a,
+					/usr/local/lib/libiCubDev.a,
+					/usr/local/lib/libiCubVis.a,
+					/usr/local/lib/liblogpolar.a,
+					/usr/local/lib/libboostMIL.a,
+					/usr/local/lib/libctrlLib.a,
+					/usr/local/lib/libskinDynLib.a,
+					/usr/local/lib/libiKin.a,
+					/usr/local/lib/libiDyn.a,
+					/usr/local/lib/liblearningMachine.a,
+					/usr/local/lib/libperceptiveModels.a,
+					/usr/local/lib/libactionPrimitives.a,
+					/usr/local/lib/libarmcalibrator.a,
+					/usr/local/lib/libarmcalibratorj8.a,
+					/usr/local/lib/libcartesiancontrollerserver.a,
+					/usr/local/lib/libcartesiancontrollerclient.a,
+					/usr/local/lib/libgazecontrollerclient.a,
+					/usr/local/lib/libhandcalibrator.a,
+					/usr/local/lib/liblegscalibrator.a,
+					/usr/local/lib/liblogpolarclient.a,
+					/usr/local/lib/liblogpolargrabber.a,
+					/usr/local/lib/libdebugInterfaceClient.a,
+					/usr/local/lib/libdebugInterfaceWrapper.a,
+					/usr/local/lib/libembObjMotionControl.a,
+					/usr/local/lib/libethResources.a,
+					/usr/local/lib/libicubmod.a,
+					/usr/local/lib/libd4c.a,
+					/usr/local/lib/liboptimization.a,
+					/usr/local/lib/liblib0.a,
+					/usr/local/lib/liblib1.a,
+					/usr/local/lib/libsharksWithLasers.a,
+					/usr/local/lib/libcanLoaderLib.a,
+					"-lopencv_videostab",
+					"-lopencv_video",
+					"-lopencv_ts",
+					"-lopencv_superres",
+					"-lopencv_stitching",
+					"-lopencv_photo",
+					"-lopencv_ocl",
+					"-lopencv_objdetect",
+					"-lopencv_nonfree",
+					"-lopencv_ml",
+					"-lopencv_legacy",
+					"-lopencv_imgproc",
+					"-lopencv_highgui",
+					"-lopencv_gpu",
+					"-lopencv_flann",
+					"-lopencv_features2d",
+					"-lopencv_core",
+					"-lopencv_contrib",
+					"-lopencv_calib3d",
+					/usr/local/lib/libskinDynLib.a,
+					/usr/local/lib/libperceptiveModels.a,
+					/usr/local/lib/liblearningMachine.a,
+					/usr/local/lib/libicubmod.a,
+					/usr/local/lib/libarmcalibrator.a,
+					/usr/local/lib/libarmcalibratorj8.a,
+					/usr/local/lib/libcartesiancontrollerserver.a,
+					/usr/local/lib/libcartesiancontrollerclient.a,
+					/usr/local/lib/libiKin.a,
+					/usr/local/lib/libgazecontrollerclient.a,
+					/usr/local/lib/libhandcalibrator.a,
+					/usr/local/lib/liblegscalibrator.a,
+					/usr/local/lib/liblogpolarclient.a,
+					/usr/local/lib/liblogpolargrabber.a,
+					/usr/local/lib/liblogpolar.a,
+					/usr/local/lib/libdebugInterfaceClient.a,
+					/usr/local/lib/libdebugInterfaceWrapper.a,
+					/usr/local/lib/libembObjMotionControl.a,
+					/usr/local/lib/libiCubDev.a,
+					/usr/local/lib/libethResources.a,
+					/usr/local/lib/libctrlLib.a,
+					/usr/local/lib/libgsl.dylib,
+					/usr/local/lib/libgslcblas.dylib,
+					/usr/local/lib/libipopt.dylib,
+					/usr/lib/liblapack.dylib,
+					/usr/lib/libblas.dylib,
+					/usr/lib/libm.dylib,
+					/usr/lib/libdl.dylib,
+					/usr/local/lib/libcoinmumps.dylib,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib,
+					"-framework",
+					System,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib,
+					/usr/lib/libblas.dylib,
+					/usr/lib/libm.dylib,
+					/usr/lib/libdl.dylib,
+					/usr/local/lib/libcoinmumps.dylib,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib,
+					"-framework",
+					System,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib,
+					/usr/local/lib/libcoinmetis.dylib,
+					/usr/local/lib/liblib0.a,
+					/usr/local/lib/libYARP_math.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_dev.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_sig.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_name.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_init.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_OS.2.3.63.6.dylib,
+					/usr/local/lib/libACE.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = imagePickUp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/imagePickUp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		7897AA8A605541D783FAA4D6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/imagePickUp/build";
+			};
+			name = RelWithDebInfo;
+		};
+		8D76549543954B2EA272EB37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/imagePickUp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		C8088BDC43184FC7BDD8020D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libiCubIDLClients.a,
+					/usr/local/lib/libiCubDev.a,
+					/usr/local/lib/libiCubVis.a,
+					/usr/local/lib/liblogpolar.a,
+					/usr/local/lib/libboostMIL.a,
+					/usr/local/lib/libctrlLib.a,
+					/usr/local/lib/libskinDynLib.a,
+					/usr/local/lib/libiKin.a,
+					/usr/local/lib/libiDyn.a,
+					/usr/local/lib/liblearningMachine.a,
+					/usr/local/lib/libperceptiveModels.a,
+					/usr/local/lib/libactionPrimitives.a,
+					/usr/local/lib/libarmcalibrator.a,
+					/usr/local/lib/libarmcalibratorj8.a,
+					/usr/local/lib/libcartesiancontrollerserver.a,
+					/usr/local/lib/libcartesiancontrollerclient.a,
+					/usr/local/lib/libgazecontrollerclient.a,
+					/usr/local/lib/libhandcalibrator.a,
+					/usr/local/lib/liblegscalibrator.a,
+					/usr/local/lib/liblogpolarclient.a,
+					/usr/local/lib/liblogpolargrabber.a,
+					/usr/local/lib/libdebugInterfaceClient.a,
+					/usr/local/lib/libdebugInterfaceWrapper.a,
+					/usr/local/lib/libembObjMotionControl.a,
+					/usr/local/lib/libethResources.a,
+					/usr/local/lib/libicubmod.a,
+					/usr/local/lib/libd4c.a,
+					/usr/local/lib/liboptimization.a,
+					/usr/local/lib/liblib0.a,
+					/usr/local/lib/liblib1.a,
+					/usr/local/lib/libsharksWithLasers.a,
+					/usr/local/lib/libcanLoaderLib.a,
+					"-lopencv_videostab",
+					"-lopencv_video",
+					"-lopencv_ts",
+					"-lopencv_superres",
+					"-lopencv_stitching",
+					"-lopencv_photo",
+					"-lopencv_ocl",
+					"-lopencv_objdetect",
+					"-lopencv_nonfree",
+					"-lopencv_ml",
+					"-lopencv_legacy",
+					"-lopencv_imgproc",
+					"-lopencv_highgui",
+					"-lopencv_gpu",
+					"-lopencv_flann",
+					"-lopencv_features2d",
+					"-lopencv_core",
+					"-lopencv_contrib",
+					"-lopencv_calib3d",
+					/usr/local/lib/libskinDynLib.a,
+					/usr/local/lib/libperceptiveModels.a,
+					/usr/local/lib/liblearningMachine.a,
+					/usr/local/lib/libicubmod.a,
+					/usr/local/lib/libarmcalibrator.a,
+					/usr/local/lib/libarmcalibratorj8.a,
+					/usr/local/lib/libcartesiancontrollerserver.a,
+					/usr/local/lib/libcartesiancontrollerclient.a,
+					/usr/local/lib/libiKin.a,
+					/usr/local/lib/libgazecontrollerclient.a,
+					/usr/local/lib/libhandcalibrator.a,
+					/usr/local/lib/liblegscalibrator.a,
+					/usr/local/lib/liblogpolarclient.a,
+					/usr/local/lib/liblogpolargrabber.a,
+					/usr/local/lib/liblogpolar.a,
+					/usr/local/lib/libdebugInterfaceClient.a,
+					/usr/local/lib/libdebugInterfaceWrapper.a,
+					/usr/local/lib/libembObjMotionControl.a,
+					/usr/local/lib/libiCubDev.a,
+					/usr/local/lib/libethResources.a,
+					/usr/local/lib/libctrlLib.a,
+					/usr/local/lib/libgsl.dylib,
+					/usr/local/lib/libgslcblas.dylib,
+					/usr/local/lib/libipopt.dylib,
+					/usr/lib/liblapack.dylib,
+					/usr/lib/libblas.dylib,
+					/usr/lib/libm.dylib,
+					/usr/lib/libdl.dylib,
+					/usr/local/lib/libcoinmumps.dylib,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib,
+					"-framework",
+					System,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib,
+					/usr/lib/libblas.dylib,
+					/usr/lib/libm.dylib,
+					/usr/lib/libdl.dylib,
+					/usr/local/lib/libcoinmumps.dylib,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib,
+					"-framework",
+					System,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib,
+					/usr/local/lib/libcoinmetis.dylib,
+					/usr/local/lib/liblib0.a,
+					/usr/local/lib/libYARP_math.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_dev.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_sig.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_name.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_init.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_OS.2.3.63.6.dylib,
+					/usr/local/lib/libACE.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = imagePickUp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/imagePickUp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		DECCAB804DFD4948AB707B6D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/usr/local/lib/libiCubIDLClients.a,
+					/usr/local/lib/libiCubDev.a,
+					/usr/local/lib/libiCubVis.a,
+					/usr/local/lib/liblogpolar.a,
+					/usr/local/lib/libboostMIL.a,
+					/usr/local/lib/libctrlLib.a,
+					/usr/local/lib/libskinDynLib.a,
+					/usr/local/lib/libiKin.a,
+					/usr/local/lib/libiDyn.a,
+					/usr/local/lib/liblearningMachine.a,
+					/usr/local/lib/libperceptiveModels.a,
+					/usr/local/lib/libactionPrimitives.a,
+					/usr/local/lib/libarmcalibrator.a,
+					/usr/local/lib/libarmcalibratorj8.a,
+					/usr/local/lib/libcartesiancontrollerserver.a,
+					/usr/local/lib/libcartesiancontrollerclient.a,
+					/usr/local/lib/libgazecontrollerclient.a,
+					/usr/local/lib/libhandcalibrator.a,
+					/usr/local/lib/liblegscalibrator.a,
+					/usr/local/lib/liblogpolarclient.a,
+					/usr/local/lib/liblogpolargrabber.a,
+					/usr/local/lib/libdebugInterfaceClient.a,
+					/usr/local/lib/libdebugInterfaceWrapper.a,
+					/usr/local/lib/libembObjMotionControl.a,
+					/usr/local/lib/libethResources.a,
+					/usr/local/lib/libicubmod.a,
+					/usr/local/lib/libd4c.a,
+					/usr/local/lib/liboptimization.a,
+					/usr/local/lib/liblib0.a,
+					/usr/local/lib/liblib1.a,
+					/usr/local/lib/libsharksWithLasers.a,
+					/usr/local/lib/libcanLoaderLib.a,
+					"-lopencv_videostab",
+					"-lopencv_video",
+					"-lopencv_ts",
+					"-lopencv_superres",
+					"-lopencv_stitching",
+					"-lopencv_photo",
+					"-lopencv_ocl",
+					"-lopencv_objdetect",
+					"-lopencv_nonfree",
+					"-lopencv_ml",
+					"-lopencv_legacy",
+					"-lopencv_imgproc",
+					"-lopencv_highgui",
+					"-lopencv_gpu",
+					"-lopencv_flann",
+					"-lopencv_features2d",
+					"-lopencv_core",
+					"-lopencv_contrib",
+					"-lopencv_calib3d",
+					/usr/local/lib/libskinDynLib.a,
+					/usr/local/lib/libperceptiveModels.a,
+					/usr/local/lib/liblearningMachine.a,
+					/usr/local/lib/libicubmod.a,
+					/usr/local/lib/libarmcalibrator.a,
+					/usr/local/lib/libarmcalibratorj8.a,
+					/usr/local/lib/libcartesiancontrollerserver.a,
+					/usr/local/lib/libcartesiancontrollerclient.a,
+					/usr/local/lib/libiKin.a,
+					/usr/local/lib/libgazecontrollerclient.a,
+					/usr/local/lib/libhandcalibrator.a,
+					/usr/local/lib/liblegscalibrator.a,
+					/usr/local/lib/liblogpolarclient.a,
+					/usr/local/lib/liblogpolargrabber.a,
+					/usr/local/lib/liblogpolar.a,
+					/usr/local/lib/libdebugInterfaceClient.a,
+					/usr/local/lib/libdebugInterfaceWrapper.a,
+					/usr/local/lib/libembObjMotionControl.a,
+					/usr/local/lib/libiCubDev.a,
+					/usr/local/lib/libethResources.a,
+					/usr/local/lib/libctrlLib.a,
+					/usr/local/lib/libgsl.dylib,
+					/usr/local/lib/libgslcblas.dylib,
+					/usr/local/lib/libipopt.dylib,
+					/usr/lib/liblapack.dylib,
+					/usr/lib/libblas.dylib,
+					/usr/lib/libm.dylib,
+					/usr/lib/libdl.dylib,
+					/usr/local/lib/libcoinmumps.dylib,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib,
+					"-framework",
+					System,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib,
+					/usr/lib/libblas.dylib,
+					/usr/lib/libm.dylib,
+					/usr/lib/libdl.dylib,
+					/usr/local/lib/libcoinmumps.dylib,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib,
+					"-framework",
+					System,
+					/usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib,
+					/usr/local/lib/libcoinmetis.dylib,
+					/usr/local/lib/liblib0.a,
+					/usr/local/lib/libYARP_math.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_dev.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_sig.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_name.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_init.2.3.63.6.dylib,
+					/usr/local/lib/libYARP_OS.2.3.63.6.dylib,
+					/usr/local/lib/libACE.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = imagePickUp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/imagePickUp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		E4C1EFFB0A0A4129B0DF6F28 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/imagePickUp/build";
+			};
+			name = MinSizeRel;
+		};
+		F7A116867B844ECB83C85DE8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/imagePickUp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		FFCDC815AD51414FA3CDBC58 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					YARP_NO_DEPRECATED_WARNINGS,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/opencv,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/imagePickUp";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1176D623416F46E8AEB34C59 /* Build configuration list for PBXProject "imagePickUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5433D7831F2A4012ADF8C44A /* Debug */,
+				03C5A68DBE1E4DD3A2060096 /* Release */,
+				E4C1EFFB0A0A4129B0DF6F28 /* MinSizeRel */,
+				7897AA8A605541D783FAA4D6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		368ABC019C964BE89D4A4A6B /* Build configuration list for PBXNativeTarget "imagePickUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02985D66F69C4427A33F9DE9 /* Debug */,
+				64FA9900CE8643288B53B006 /* Release */,
+				DECCAB804DFD4948AB707B6D /* MinSizeRel */,
+				C8088BDC43184FC7BDD8020D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E9F9ADC63A7C4F05BD3E8120 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D76549543954B2EA272EB37 /* Debug */,
+				6386CB61EE8D4466897F4F46 /* Release */,
+				F7A116867B844ECB83C85DE8 /* MinSizeRel */,
+				56E92F61461E40378F46697F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F0792A9320A9466BB34F87E0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C7D44CC134946CA80B90034 /* Debug */,
+				3170C62C50994795B3FB0D9D /* Release */,
+				FFCDC815AD51414FA3CDBC58 /* MinSizeRel */,
+				5848E6D9336C4C1EB0295029 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8D229B22B7E4EFC8B7A5F0A /* Project object */;
+}

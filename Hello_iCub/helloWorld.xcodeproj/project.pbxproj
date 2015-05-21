@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              76A543C766DC47798AFE1303 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 4C3031D155F94C26A9044DCE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            2156B06B1B58451D931CD1E7 /* CMake Rules */,
+                     );
+                     dependencies = (
+                            F70E9FC20986478C8611D0AD /* PBXTargetDependency */,
+                            69A91D742CD948999B5F3E70 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              97E7DFE8523448299209720A /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = C5336274EC544DD6AAD89C97 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            42C88923EEDE41E0B066310C /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+01C2010314CA4996B6BDCD29 /* /Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B18F481B947E4EC1BC9B9660 /* /Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+0982CC5211814BAC99819200 /* /Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub/main.cpp */ = {isa = PBXBuildFile; fileRef = 17F1BE77DC7840C0B291B2CB /* /Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub/main.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              D357A57FA95E4DC282CDBBA0 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              18C145C1C74840D1BEDB0CCB /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              8CF33E0DA45F49F2BD77738E /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              56DFCA4F050147D89E636E83 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              C634F36ACFC94DA9A4440E7B /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              7E4DD43F011641F18BE9A1B9 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = DC01FD4DA88240D1B6C428B0 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 97E7DFE8523448299209720A;
+                     remoteInfo = ZERO_CHECK;
+              };
+              EB2249CD838F4951AE8DCD1C /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = DC01FD4DA88240D1B6C428B0 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = E349909A29B54E2D90A43F23;
+                     remoteInfo = helloWorld;
+              };
+              9A2CFF279E2347959F8D2EA4 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = DC01FD4DA88240D1B6C428B0 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 97E7DFE8523448299209720A;
+                     remoteInfo = ZERO_CHECK;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+C024F197D4CC4361885175BE /* /Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+AA4AC54E89794421B7C81C56 /* /Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+B18F481B947E4EC1BC9B9660 /* /Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+17F1BE77DC7840C0B291B2CB /* /Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub/main.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "main.cpp"; path = "main.cpp"; sourceTree = SOURCE_ROOT; };
+E210DE0A38184825894C2D98 /* helloWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = helloWorld; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              5F7DC2D33AE5410288B35698  = {
+                     isa = PBXGroup;
+                     children = (
+                            5162888E6C6E4162AE679AF9 /* Sources */,
+                            0A5BB59220A34D519B4E6388 /* Resources */,
+                            D875C391D4DA493CAB791C1C /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              5162888E6C6E4162AE679AF9 /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            BA29030324F248F8BCF3CEB4 /* ALL_BUILD */,
+                            D62AD37AB3834741A036DA62 /* helloWorld */,
+                            07BA035C66C1468A9560F676 /* ZERO_CHECK */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              0A5BB59220A34D519B4E6388 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              BA29030324F248F8BCF3CEB4 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            4DC2DB0E0378425081A02EBB /* CMake Rules */,
+                            C024F197D4CC4361885175BE /* /Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              4DC2DB0E0378425081A02EBB /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              D62AD37AB3834741A036DA62 /* helloWorld */ = {
+                     isa = PBXGroup;
+                     children = (
+                            AA7FE1BE8B494F2AB2C7DB1F /* Source Files */,
+                            B18F481B947E4EC1BC9B9660 /* /Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub/CMakeLists.txt */,
+                     );
+                     name = helloWorld;
+                     sourceTree = "<group>";
+              };
+              AA7FE1BE8B494F2AB2C7DB1F /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            17F1BE77DC7840C0B291B2CB /* /Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub/main.cpp */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              07BA035C66C1468A9560F676 /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            4E1BE0767BF94B8695E49D2F /* CMake Rules */,
+                            AA4AC54E89794421B7C81C56 /* /Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              4E1BE0767BF94B8695E49D2F /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              D875C391D4DA493CAB791C1C /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            E210DE0A38184825894C2D98 /* helloWorld */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              E349909A29B54E2D90A43F23 /* helloWorld */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = 9052AE4D8F6E428C88DB2D4B /* Build configuration list for PBXNativeTarget "helloWorld" */;
+                     buildPhases = (
+                            09A0B1AF5C364B16A62E46E7 /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            78BF8E94549C4FFAB4FF669C /* PBXTargetDependency */,
+                     );
+                     name = helloWorld;
+                     productName = helloWorld;
+                     productReference = E210DE0A38184825894C2D98 /* helloWorld */;
+                     productType = "com.apple.product-type.tool";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              DC01FD4DA88240D1B6C428B0 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 597C1E688C794758BF35AA77 /* Build configuration list for PBXProject  "helloWorld" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            18C145C1C74840D1BEDB0CCB /* Debug */,
+                            8CF33E0DA45F49F2BD77738E /* Release */,
+                            56DFCA4F050147D89E636E83 /* MinSizeRel */,
+                            C634F36ACFC94DA9A4440E7B /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = 5F7DC2D33AE5410288B35698;
+                     projectDirPath = ".";
+                     projectRoot = "";
+                     targets = (
+                            76A543C766DC47798AFE1303 /* ALL_BUILD */,
+                            97E7DFE8523448299209720A /* ZERO_CHECK */,
+                            E349909A29B54E2D90A43F23 /* helloWorld */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              6F6D845B9D0C489386932B63 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              2156B06B1B58451D931CD1E7 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub -f /Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              BB2644F399614D0A83B9C5A5 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              42C88923EEDE41E0B066310C /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub -f /Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              09A0B1AF5C364B16A62E46E7 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            0982CC5211814BAC99819200 /* /Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub/main.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              F70E9FC20986478C8611D0AD /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 97E7DFE8523448299209720A /* ZERO_CHECK */;
+                     targetProxy = 7E4DD43F011641F18BE9A1B9 /* PBXContainerItemProxy */;
+              };
+              69A91D742CD948999B5F3E70 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = E349909A29B54E2D90A43F23 /* helloWorld */;
+                     targetProxy = EB2249CD838F4951AE8DCD1C /* PBXContainerItemProxy */;
+              };
+              78BF8E94549C4FFAB4FF669C /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 97E7DFE8523448299209720A /* ZERO_CHECK */;
+                     targetProxy = 9A2CFF279E2347959F8D2EA4 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              962DF6BE1CB04650B9A49D96 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub/build";
+                     };
+                     name = Debug;
+              };
+              07B44F0E3F3C42CE90CF4507 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub/build";
+                     };
+                     name = Release;
+              };
+              1A681D5BA01845D78C1D4F3A /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub/build";
+                     };
+                     name = MinSizeRel;
+              };
+              5E629206C7384348B7432310 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub/build";
+                     };
+                     name = RelWithDebInfo;
+              };
+              5D83BC9F1A504A26AA571AFD /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", YARP_NO_DEPRECATED_WARNINGS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /usr/local/include/opencv, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              48287B7B53094990BC7D38AD /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", YARP_NO_DEPRECATED_WARNINGS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /usr/local/include/opencv, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              874258C8E1184189ADC8C36E /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", YARP_NO_DEPRECATED_WARNINGS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /usr/local/include/opencv, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              05BDE96752CF40239C245FA0 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", YARP_NO_DEPRECATED_WARNINGS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /usr/local/include/opencv, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              7F10C80BD1CA45B7935D77B9 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", YARP_NO_DEPRECATED_WARNINGS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /usr/local/include/opencv, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              FECFB92B9E3E46F5A4619145 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", YARP_NO_DEPRECATED_WARNINGS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /usr/local/include/opencv, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              9617D354F8934E1F8E3D326F /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", YARP_NO_DEPRECATED_WARNINGS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /usr/local/include/opencv, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              04C47E54029E4B43B588CB03 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", YARP_NO_DEPRECATED_WARNINGS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /usr/local/include/opencv, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              817D1E41D6504D83B70A12BE /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", YARP_NO_DEPRECATED_WARNINGS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /usr/local/include/opencv, );
+                            INSTALL_PATH = "";
+                            LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_CPLUSPLUSFLAGS = "    ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libiCubIDLClients.a /usr/local/lib/libiCubDev.a /usr/local/lib/libiCubVis.a /usr/local/lib/liblogpolar.a /usr/local/lib/libboostMIL.a /usr/local/lib/libctrlLib.a /usr/local/lib/libskinDynLib.a /usr/local/lib/libiKin.a /usr/local/lib/libiDyn.a /usr/local/lib/liblearningMachine.a /usr/local/lib/libperceptiveModels.a /usr/local/lib/libactionPrimitives.a /usr/local/lib/libcartesiancontrollerserver.a /usr/local/lib/libcartesiancontrollerclient.a /usr/local/lib/liblogpolarclient.a /usr/local/lib/liblogpolargrabber.a /usr/local/lib/libicubmod.a /usr/local/lib/libd4c.a /usr/local/lib/liboptimization.a /usr/local/lib/liblib0.a /usr/local/lib/liblib1.a /usr/local/lib/libsharksWithLasers.a /usr/local/lib/libcanLoaderLib.a -lopencv_videostab -lopencv_video -lopencv_ts -lopencv_superres -lopencv_stitching -lopencv_photo -lopencv_ocl -lopencv_objdetect -lopencv_nonfree -lopencv_ml -lopencv_legacy -lopencv_imgproc -lopencv_highgui -lopencv_gpu -lopencv_flann -lopencv_features2d -lopencv_core -lopencv_contrib -lopencv_calib3d /usr/local/lib/libskinDynLib.a /usr/local/lib/libperceptiveModels.a /usr/local/lib/liblearningMachine.a /usr/local/lib/libicubmod.a /usr/local/lib/libcartesiancontrollerserver.a /usr/local/lib/libcartesiancontrollerclient.a /usr/local/lib/libiKin.a /usr/local/lib/liblogpolarclient.a /usr/local/lib/libiCubDev.a /usr/local/lib/liblogpolargrabber.a /usr/local/lib/liblogpolar.a /usr/local/lib/libctrlLib.a /usr/local/lib/libgsl.dylib /usr/local/lib/libgslcblas.dylib /usr/local/lib/libipopt.dylib /usr/lib/liblapack.dylib /usr/lib/libblas.dylib /usr/lib/libm.dylib /usr/lib/libdl.dylib /usr/local/lib/libcoinmumps.dylib /usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib -framework System /usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib /usr/lib/libblas.dylib /usr/lib/libm.dylib /usr/lib/libdl.dylib /usr/local/lib/libcoinmumps.dylib /usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib -framework System /usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib /usr/local/lib/libcoinmetis.dylib /usr/local/lib/liblib0.a /usr/local/lib/libYARP_math.2.3.63.6.dylib /usr/local/lib/libYARP_dev.2.3.63.6.dylib /usr/local/lib/libYARP_sig.2.3.63.6.dylib /usr/local/lib/libYARP_name.2.3.63.6.dylib /usr/local/lib/libYARP_init.2.3.63.6.dylib /usr/local/lib/libYARP_OS.2.3.63.6.dylib /usr/local/lib/libACE.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = helloWorld;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              047BF0937E0A423ABADD5A29 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", YARP_NO_DEPRECATED_WARNINGS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /usr/local/include/opencv, );
+                            INSTALL_PATH = "";
+                            LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libiCubIDLClients.a /usr/local/lib/libiCubDev.a /usr/local/lib/libiCubVis.a /usr/local/lib/liblogpolar.a /usr/local/lib/libboostMIL.a /usr/local/lib/libctrlLib.a /usr/local/lib/libskinDynLib.a /usr/local/lib/libiKin.a /usr/local/lib/libiDyn.a /usr/local/lib/liblearningMachine.a /usr/local/lib/libperceptiveModels.a /usr/local/lib/libactionPrimitives.a /usr/local/lib/libcartesiancontrollerserver.a /usr/local/lib/libcartesiancontrollerclient.a /usr/local/lib/liblogpolarclient.a /usr/local/lib/liblogpolargrabber.a /usr/local/lib/libicubmod.a /usr/local/lib/libd4c.a /usr/local/lib/liboptimization.a /usr/local/lib/liblib0.a /usr/local/lib/liblib1.a /usr/local/lib/libsharksWithLasers.a /usr/local/lib/libcanLoaderLib.a -lopencv_videostab -lopencv_video -lopencv_ts -lopencv_superres -lopencv_stitching -lopencv_photo -lopencv_ocl -lopencv_objdetect -lopencv_nonfree -lopencv_ml -lopencv_legacy -lopencv_imgproc -lopencv_highgui -lopencv_gpu -lopencv_flann -lopencv_features2d -lopencv_core -lopencv_contrib -lopencv_calib3d /usr/local/lib/libskinDynLib.a /usr/local/lib/libperceptiveModels.a /usr/local/lib/liblearningMachine.a /usr/local/lib/libicubmod.a /usr/local/lib/libcartesiancontrollerserver.a /usr/local/lib/libcartesiancontrollerclient.a /usr/local/lib/libiKin.a /usr/local/lib/liblogpolarclient.a /usr/local/lib/libiCubDev.a /usr/local/lib/liblogpolargrabber.a /usr/local/lib/liblogpolar.a /usr/local/lib/libctrlLib.a /usr/local/lib/libgsl.dylib /usr/local/lib/libgslcblas.dylib /usr/local/lib/libipopt.dylib /usr/lib/liblapack.dylib /usr/lib/libblas.dylib /usr/lib/libm.dylib /usr/lib/libdl.dylib /usr/local/lib/libcoinmumps.dylib /usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib -framework System /usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib /usr/lib/libblas.dylib /usr/lib/libm.dylib /usr/lib/libdl.dylib /usr/local/lib/libcoinmumps.dylib /usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib -framework System /usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib /usr/local/lib/libcoinmetis.dylib /usr/local/lib/liblib0.a /usr/local/lib/libYARP_math.2.3.63.6.dylib /usr/local/lib/libYARP_dev.2.3.63.6.dylib /usr/local/lib/libYARP_sig.2.3.63.6.dylib /usr/local/lib/libYARP_name.2.3.63.6.dylib /usr/local/lib/libYARP_init.2.3.63.6.dylib /usr/local/lib/libYARP_OS.2.3.63.6.dylib /usr/local/lib/libACE.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = helloWorld;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              6FA780D65B2F46A78B0982B0 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", YARP_NO_DEPRECATED_WARNINGS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /usr/local/include/opencv, );
+                            INSTALL_PATH = "";
+                            LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libiCubIDLClients.a /usr/local/lib/libiCubDev.a /usr/local/lib/libiCubVis.a /usr/local/lib/liblogpolar.a /usr/local/lib/libboostMIL.a /usr/local/lib/libctrlLib.a /usr/local/lib/libskinDynLib.a /usr/local/lib/libiKin.a /usr/local/lib/libiDyn.a /usr/local/lib/liblearningMachine.a /usr/local/lib/libperceptiveModels.a /usr/local/lib/libactionPrimitives.a /usr/local/lib/libcartesiancontrollerserver.a /usr/local/lib/libcartesiancontrollerclient.a /usr/local/lib/liblogpolarclient.a /usr/local/lib/liblogpolargrabber.a /usr/local/lib/libicubmod.a /usr/local/lib/libd4c.a /usr/local/lib/liboptimization.a /usr/local/lib/liblib0.a /usr/local/lib/liblib1.a /usr/local/lib/libsharksWithLasers.a /usr/local/lib/libcanLoaderLib.a -lopencv_videostab -lopencv_video -lopencv_ts -lopencv_superres -lopencv_stitching -lopencv_photo -lopencv_ocl -lopencv_objdetect -lopencv_nonfree -lopencv_ml -lopencv_legacy -lopencv_imgproc -lopencv_highgui -lopencv_gpu -lopencv_flann -lopencv_features2d -lopencv_core -lopencv_contrib -lopencv_calib3d /usr/local/lib/libskinDynLib.a /usr/local/lib/libperceptiveModels.a /usr/local/lib/liblearningMachine.a /usr/local/lib/libicubmod.a /usr/local/lib/libcartesiancontrollerserver.a /usr/local/lib/libcartesiancontrollerclient.a /usr/local/lib/libiKin.a /usr/local/lib/liblogpolarclient.a /usr/local/lib/libiCubDev.a /usr/local/lib/liblogpolargrabber.a /usr/local/lib/liblogpolar.a /usr/local/lib/libctrlLib.a /usr/local/lib/libgsl.dylib /usr/local/lib/libgslcblas.dylib /usr/local/lib/libipopt.dylib /usr/lib/liblapack.dylib /usr/lib/libblas.dylib /usr/lib/libm.dylib /usr/lib/libdl.dylib /usr/local/lib/libcoinmumps.dylib /usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib -framework System /usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib /usr/lib/libblas.dylib /usr/lib/libm.dylib /usr/lib/libdl.dylib /usr/local/lib/libcoinmumps.dylib /usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib -framework System /usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib /usr/local/lib/libcoinmetis.dylib /usr/local/lib/liblib0.a /usr/local/lib/libYARP_math.2.3.63.6.dylib /usr/local/lib/libYARP_dev.2.3.63.6.dylib /usr/local/lib/libYARP_sig.2.3.63.6.dylib /usr/local/lib/libYARP_name.2.3.63.6.dylib /usr/local/lib/libYARP_init.2.3.63.6.dylib /usr/local/lib/libYARP_OS.2.3.63.6.dylib /usr/local/lib/libACE.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = helloWorld;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              FE83E67BE4D5427593A031F4 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", YARP_NO_DEPRECATED_WARNINGS, );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = (/usr/local/include, /usr/local/include/opencv, );
+                            INSTALL_PATH = "";
+                            LD_RUNPATH_SEARCH_PATHS = /usr/local/lib;
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libiCubIDLClients.a /usr/local/lib/libiCubDev.a /usr/local/lib/libiCubVis.a /usr/local/lib/liblogpolar.a /usr/local/lib/libboostMIL.a /usr/local/lib/libctrlLib.a /usr/local/lib/libskinDynLib.a /usr/local/lib/libiKin.a /usr/local/lib/libiDyn.a /usr/local/lib/liblearningMachine.a /usr/local/lib/libperceptiveModels.a /usr/local/lib/libactionPrimitives.a /usr/local/lib/libcartesiancontrollerserver.a /usr/local/lib/libcartesiancontrollerclient.a /usr/local/lib/liblogpolarclient.a /usr/local/lib/liblogpolargrabber.a /usr/local/lib/libicubmod.a /usr/local/lib/libd4c.a /usr/local/lib/liboptimization.a /usr/local/lib/liblib0.a /usr/local/lib/liblib1.a /usr/local/lib/libsharksWithLasers.a /usr/local/lib/libcanLoaderLib.a -lopencv_videostab -lopencv_video -lopencv_ts -lopencv_superres -lopencv_stitching -lopencv_photo -lopencv_ocl -lopencv_objdetect -lopencv_nonfree -lopencv_ml -lopencv_legacy -lopencv_imgproc -lopencv_highgui -lopencv_gpu -lopencv_flann -lopencv_features2d -lopencv_core -lopencv_contrib -lopencv_calib3d /usr/local/lib/libskinDynLib.a /usr/local/lib/libperceptiveModels.a /usr/local/lib/liblearningMachine.a /usr/local/lib/libicubmod.a /usr/local/lib/libcartesiancontrollerserver.a /usr/local/lib/libcartesiancontrollerclient.a /usr/local/lib/libiKin.a /usr/local/lib/liblogpolarclient.a /usr/local/lib/libiCubDev.a /usr/local/lib/liblogpolargrabber.a /usr/local/lib/liblogpolar.a /usr/local/lib/libctrlLib.a /usr/local/lib/libgsl.dylib /usr/local/lib/libgslcblas.dylib /usr/local/lib/libipopt.dylib /usr/lib/liblapack.dylib /usr/lib/libblas.dylib /usr/lib/libm.dylib /usr/lib/libdl.dylib /usr/local/lib/libcoinmumps.dylib /usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib -framework System /usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib /usr/lib/libblas.dylib /usr/lib/libm.dylib /usr/lib/libdl.dylib /usr/local/lib/libcoinmumps.dylib /usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libgfortran.dylib -framework System /usr/local/Cellar/gcc/4.9.2_1/lib/gcc/4.9/libquadmath.dylib /usr/local/lib/libcoinmetis.dylib /usr/local/lib/liblib0.a /usr/local/lib/libYARP_math.2.3.63.6.dylib /usr/local/lib/libYARP_dev.2.3.63.6.dylib /usr/local/lib/libYARP_sig.2.3.63.6.dylib /usr/local/lib/libYARP_name.2.3.63.6.dylib /usr/local/lib/libYARP_init.2.3.63.6.dylib /usr/local/lib/libYARP_OS.2.3.63.6.dylib /usr/local/lib/libACE.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = helloWorld;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/Semih/iCub_Turkish-actionRecognition/Hello_iCub";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              597C1E688C794758BF35AA77 /* Build configuration list for PBXProject  "helloWorld" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            962DF6BE1CB04650B9A49D96 /* Debug */,
+                            07B44F0E3F3C42CE90CF4507 /* Release */,
+                            1A681D5BA01845D78C1D4F3A /* MinSizeRel */,
+                            5E629206C7384348B7432310 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              4C3031D155F94C26A9044DCE /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            5D83BC9F1A504A26AA571AFD /* Debug */,
+                            48287B7B53094990BC7D38AD /* Release */,
+                            874258C8E1184189ADC8C36E /* MinSizeRel */,
+                            05BDE96752CF40239C245FA0 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              C5336274EC544DD6AAD89C97 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            7F10C80BD1CA45B7935D77B9 /* Debug */,
+                            FECFB92B9E3E46F5A4619145 /* Release */,
+                            9617D354F8934E1F8E3D326F /* MinSizeRel */,
+                            04C47E54029E4B43B588CB03 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              9052AE4D8F6E428C88DB2D4B /* Build configuration list for PBXNativeTarget "helloWorld" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            817D1E41D6504D83B70A12BE /* Debug */,
+                            047BF0937E0A423ABADD5A29 /* Release */,
+                            6FA780D65B2F46A78B0982B0 /* MinSizeRel */,
+                            FE83E67BE4D5427593A031F4 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = DC01FD4DA88240D1B6C428B0;
+}
